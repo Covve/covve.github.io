@@ -1,0 +1,41 @@
+@media print {
+  body {
+    font-size: 14px;
+    line-height: 1.3;
+    color: $black;
+  }
+
+  a[href^="http"]:not([href*="http://inside.covve.com"]):after {
+    content: " (" attr(href) ")";
+  }
+
+  h1,
+  h2.heading {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+
+  nav,
+  .previous-next-links,
+  .share-container,
+  img {
+    display: none;
+  }
+
+  img:before {
+    content: 'sex sex';
+
+  }
+
+  #content {
+    width: 100%;
+    border-left: none;
+    padding: 0;
+
+    section {
+      margin-bottom: $space * 3;
+    }
+  }
+}

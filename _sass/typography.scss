@@ -1,0 +1,128 @@
+$font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+
+// body general
+body {
+  font-family: $font;
+  font-size: 1em;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+
+// font smoothing for headings-text is too thick
+h1,
+h2,
+em {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 strong,
+h2 strong,
+h3 strong {
+  font-weight: 400;
+}
+h1,
+h2.heading {
+  font-family: $font;
+  font-size: 3.3em;
+  font-weight: 200;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+  margin-bottom: $space;
+}
+h2 {
+  font-family: $font;
+  font-size: 2.4em;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-bottom: $space;
+}
+h3 {
+  font-size: 1.4em;
+  font-weight: 300;
+  line-height: 1.4;
+  padding: $space 0;
+}
+
+
+ul,
+li,
+pre,
+p {
+  margin-bottom: $space;
+}
+
+
+sup,
+sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.2em;
+}
+sub {
+  top: 0.2em;
+}
+
+
+// strong less weight
+strong,
+b {
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+blockquote {
+  font-size: 1.4em;
+  font-style: italic;
+  line-height: 1.5em;
+  border-left: solid 2px $text;
+  padding-left: $space;
+  margin-bottom: $space;
+  margin-left: -$space * 1.3;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.03em;
+}
+
+
+// make uppercase
+.text--uppercase {
+  text-transform: uppercase;
+}
+
+// text font size
+.text--smaller {
+  font-size: .8em;
+}
+.text--smallest {
+  font-size: .75em;
+}
+.text--bigger {
+  font-size: 1.125em;
+}
+.text--biggest {
+  font-size: 1.25em;
+}
+
+
+// align text
+.text--centre {
+  text-align: center;
+}
+.text--right {
+  text-align: right;
+}
+.text--left {
+  text-align: left;
+}
+
+
+// colour of text
+.text--grey {
+  color: $grey;
+}

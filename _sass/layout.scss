@@ -1,0 +1,104 @@
+// entire website inside a container
+#container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+// content container
+#content {
+  width: 72%;
+  float: left;
+  padding: $space * 3 0 $space * 4 $space * 4;
+  border-left: solid 1px $line;
+
+  // each summary article spacing
+  section {
+    margin-bottom: $space * 6;
+  }
+
+  // article text
+  article {
+    font-size: 1.25em;
+    padding-top: $space;
+
+    p + p > img {
+      padding-top: $space;
+    }
+  }
+}
+
+
+// widths
+.width--45 {
+  width: 45%;
+}
+
+
+// positions
+.position--relative {
+  position: relative;
+}
+.position--absolute {
+  position: absolute
+}
+.position--fixed {
+  position: fixed;
+  top: 0;
+}
+
+
+// floats
+.float--left {
+  float: left;
+}
+.float--right {
+  float: right;
+}
+
+
+// vertical align
+.vertical-align--middle {
+  vertical-align: middle;
+}
+span.vertical-align--middle {
+  display: inline-block;
+}
+
+
+// display
+.display--block {
+  display: block;
+}
+.display--inline-block {
+  display: inline-block;
+}
+.display--none {
+  display: none !important;
+}
+
+
+// paddings
+.padding-left-right--half-space {
+  padding-left: $space / 2;
+  padding-right: $space / 2;
+}
+.padding--bottom-one-space {
+  padding-bottom: $space;
+}
+.padding--top-one-space {
+  padding-top: $space;
+}
+.padding--one-space {
+  padding: $space;
+}
+
+
+// margins
+.margin-bottom--one-space {
+  margin-bottom: $space;
+}
+.margin--top-two-spaces {
+  margin-top: $space * 3;
+}

@@ -1,0 +1,36 @@
+// navigation positioning
+nav {
+  float: left;
+  width: 28%;
+  padding: $space * 3 $space $space;
+  color: $text-lighter;
+
+  // navigation text is fixed
+  & > div {
+    position: fixed;
+    width: 20%;
+    max-width: $space * 20;
+  }
+
+  // move text under logo down
+  .logo {
+    margin-bottom: $space * 2;
+    display: block-inline;
+  }
+
+  // no link-styling
+  ul a {
+    @extend .no-link-styling;
+  }
+
+  // add horizontal line ----
+  .menu:before,
+  .menu:after {
+    content: '';
+    width: $space * 6;
+    height: 1px;
+    background: $line;
+    display: block;
+    margin: $space * 2 0;
+  }
+}

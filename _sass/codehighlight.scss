@@ -1,0 +1,7 @@
+// bg and spacing of <pre> code block
+.hljs {
+  border-radius: 5px;
+  padding: $space $space * 2;
+  background: $grey--lightest;
+  border: solid 1px $line;
+}

@@ -1,0 +1,114 @@
+// smaller than 900
+@media screen and (max-width: 900px){
+  h1,
+  h2.heading {
+    font-size: 2em;
+    margin-bottom: $space / 2;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+  .text--bigger {
+    font-size: 1em;
+  }
+  blockquote {
+    font-size: 1.2em;
+    letter-spacing: -0.01em;
+  }
+
+  #container {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  #content {
+    padding: $space 0 $space * 2 $space * 2;
+
+    article {
+      font-size: 1em;
+
+      p + p > img {
+        padding: $space / 2 0;
+      }
+    }
+  }
+}
+
+
+// smaller than 800
+@media screen and (max-width: 800px){
+  .hide-for-mobile {
+    display: none;
+  }
+  .hide-for-desktop {
+    display: inline;
+  }
+
+  nav {
+    float: none;
+    width: 92%;
+    margin: 0 auto;
+    padding: $space 0;
+
+    & > div {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .logo {
+      display: inline-block;
+      margin-bottom: $space;
+    }
+
+    .logo + p {
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: right;
+      width: 60%;
+    }
+
+    .menu:before,
+    .menu:after {
+      width: 100%;
+      margin: $space / 2 0;
+    }
+
+    .menu a {
+      text-align: center;
+      display: block;
+      padding: $space / 2 0;
+    }
+
+    .menu li {
+      margin: 0;
+    }
+
+    .nav__bottom-links {
+      text-align: center;
+    }
+
+    // mobile specific menu
+    .arrow-down {
+      transform: rotate(90deg);
+      display: inline-block;
+      font-size: .8em;
+    }
+  }
+
+  #content {
+    width: 92%;
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    border-left: none;
+
+    section {
+      margin-bottom: $space * 3;
+    }
+  }
+}

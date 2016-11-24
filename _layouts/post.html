@@ -1,0 +1,42 @@
+{% include header.html %}
+{% assign author = site[page.author] %}
+
+  <h1>{{ page.title }}</h1>
+  <p class="padding--bottom-one-space  border-bottom">
+    {% if author %}<a href="{{ author.link }}" target="_blank" rel="nofollow">{{ author.name }}</a>{% endif %} <span class="text--grey">in</span> <a href="{{ site.url }}/categories/#{{ page.categories | first }}">{{ page.categories | first | capitalize}}</a> <span class="text--grey">on</span> {{ page.date | date: '%d %b' }}.
+  </p>
+
+  <article>
+    {% if page.cover %}
+      <p><img src="{{ page.cover }}" alt="{{ page.title}}" /></p>
+    {% endif %}
+    {{ content }}
+
+    <a href="http://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ page.title }}:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a>
+  </article>
+
+
+  <div class="share-container  padding--one-space  margin--top-two-spaces  text--centre">
+    <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}:&via=covve" target="_blank" title="Post on Twitter"><img src="{{ site.url }}/images/tw.svg" alt="twitter svg" width="30"/></a> &nbsp; <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" title="Post on Facebook"><img src="{{ site.url }}/images/fb.svg" alt="facebook svg" width="30"/></a>
+  </div>
+
+  {% if page.previous or page.next %}
+    <div class="previous-next-links  border-top  margin--top-two-spaces  padding--top-one-space">
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}" title="Previous article: {{ page.previous.title }}" class="float--left  width--45">
+          <span class="{{ page.previous.bgcolour }}">&larr; Older article</span>
+          <h3 class="no-margin">{{ page.previous.title }}</h3>
+        </a>
+      {% endif %}
+
+      {% if page.next %}
+        <a href="{{ page.next.url }}" title="Next article: {{ page.next.title }}" class="width--45  float--right  text--right">
+          <span class="{{ page.next.bgcolour }}">Newer article &rarr;</span>
+          <h3 class="no-margin">{{ page.next.title }}</h3>
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+
+{% include footer.html %}

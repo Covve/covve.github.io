@@ -1,0 +1,68 @@
+$space: 15px;
+
+// fix browser incosistencies
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+// fix IE adding border around image links
+a img {
+  border: none;
+}
+
+
+// responsive media
+img,
+embed,
+object,
+video,
+iframe {
+  max-width: 100%;
+  border: none;
+}
+
+// selection styling
+::-moz-selection {
+  background: $black;
+  color: $white;
+  text-shadow: none;
+}
+::selection {
+  background: $black;
+  color: $white;
+  text-shadow: none;
+}
+
+
+// body general
+body {
+  color: $text;
+  background: $white;
+}
+
+
+// links
+a {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($blue, 6%);
+
+    & img {
+      opacity: .9;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+.no-link-styling {
+  color: $text;
+}

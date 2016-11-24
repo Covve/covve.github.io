@@ -1,0 +1,24 @@
+    </div>
+  </div>
+
+  <!-- Load jQuery script -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- Syntax Highlighter -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+    $(document)
+    .bind('page:change', function() {
+      $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+    })
+    .bind('page:restore', function() {
+      $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+    });
+    $('.js-mobile-menu-link').on('click', function() {
+      $('nav ul').toggleClass('hide-for-mobile');
+      $('.nav__bottom-links').toggleClass('hide-for-mobile');
+      return false;
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+// clearfix
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+// no link styling
+.no-link-styling {
+  color: $text;
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+
+// no styling
+.no-list-styling {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+// no margin
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+
+// hide for desktop
+.hide-for-desktop {
+  display: none;
+}
+
+
+// borders
+.border-bottom {
+  border-bottom: solid 1px $line;
+}
+.border-top {
+  border-top: solid 1px $line;
+}

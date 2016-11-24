@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-gb">
+
+<head>
+  <title>{% if page.title == nil %}{{ site.title }}{% endif %}{{ page.title }}</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="{% if page.layout == 'default' %}{{ site.description }}{% else %}{% if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}{% endif %}" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="{{ site.url }}/style/style.css" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{% if page.layout == 'default' %}{{ site.description }}{% else if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="blog" />
+  {% if page.cover %}<meta property="og:image" content="{{ site.url}}{{ page.cover }}" />{% endif %}
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="{{ site.twitter_username }}" />
+  <meta name="twitter:creator" content="{{ site.twitter_username }}" />
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{% if page.layout == 'default' %}{{ site.description }}{% else if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
+  {% if page.cover %}<meta property="twitter:image" content="{{ site.url}}{{ page.cover }}" />{% endif %}
+  <script src="{{ site.url }}/js/turbolinks.min.js"></script>
+</head>
+<body>
+  <div id="container">
+    <nav>
+      <div>
+        <a href="/" class="logo"><img src="{{ site.url }}/images/logo.svg" alt="inside covve logo" width="110" /></a>
+        <p>Stories from our journey towards building <a href="https://covve.com" title="Visit Covve, the ultimate address book">the ultimate address book</a>.</p>
+        <div class="menu">
+          <a href="#" class="no-link-styling  hide-for-desktop  js-mobile-menu-link">&nbsp; Menu <span class="arrow-down">&#x27A4;</span></a>
+          <ul class="no-list-styling  text--bigger  hide-for-mobile">
+          {% assign categories_list = site.categories %}
+            {% if categories_list.first[0] == null %}
+              {% for category in categories_list %}
+                <li><a href="/categories/#{{ category[0] }}">{{ category | capitalize }}</a></li>
+              {% endfor %}
+            {% else %}
+              {% for category in categories_list %}
+                <li><a href="/categories/#{{ category[0] }}" class="no-link-styling">{{ category[0] | capitalize }}</a></li>
+              {% endfor %}
+            {% endif %}
+          {% assign categories_list = nil %}
+          </ul>
+        </div>
+
+       <div class="nav__bottom-links  hide-for-mobile">
+        <a href="https://covve.com/careers" class="no-link-styling">Join our team</a> <span class="padding-left-right--half-space  text--grey">&bull;</span> <a href="https://covve.com" class="no-link-styling">Visit covve.com</a>
+      </div>
+     </div>
+    </nav>
+
+    <div id="content">

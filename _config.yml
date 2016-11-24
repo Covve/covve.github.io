@@ -1,32 +1,46 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Covve's inside blog
-email: info@covve.com
-description: > # this means to ignore newlines until "baseurl:"
-  Blog for all things Covve
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://covve.com" # the base hostname & protocol for your site, e.g. http://example.com
+# If you change this file, please restart the server process.
+title: Inside Covve blog
+description: Stories from Covve team’s journey towards building the ultimate address book.
 twitter_username: covve
-github_username:  covve
+github_username: covve
+baseurl: ""
+#url: "https://inside.covve.com"
+url: "http://0.0.0.0:4000"
+permalink: /:title/
+
 
 # Build settings
+minify_html: true
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - octopress-minify-html
 exclude:
   - Gemfile
   - Gemfile.lock
+  - .DS_Store
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Authors
+ap:
+    name: Alexandros Protogerellis
+    link: https://github.com/alexproto
+ma:
+    name: Michael Asimakopoulos
+    link: https://github.com/masimplo
+zm:
+    name: Zafeiris Malafouris
+    link: https://github.com/zafeirism
+vn:
+    name: Valadis Novakovits
+    link: https://github.com/vnovakovits
+mk:
+    name: Manolis Koufidakis
+    link: https://github.com/ManolisKoufidakis
+ka:
+    name: Kostas Antonopoulos
+    link: https://github.com/kostassite
