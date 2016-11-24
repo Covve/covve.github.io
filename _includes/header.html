@@ -5,15 +5,15 @@
   <title>{% if page.title == nil %}{{ site.title }}{% endif %}{{ page.title }}</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="{% if page.layout == 'default' %}{{ site.description }}{% else %}{% if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}{% endif %}" />
+  <meta property="description" content="{% if page.categories == nil %}{{ site.description }}{% else if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
   <meta name="viewport" content="width=device-width" />
   <link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
   <link rel="stylesheet" type="text/css" media="all" href="{{ site.url }}/style/style.css" />
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:description" content="{% if page.layout == 'default' %}{{ site.description }}{% else if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
+  <meta property="og:title" content="{% if page.title == nil %}{{ site.title }}{% endif %}{{ page.title }}" />
+  <meta property="og:description" content="{% if page.categories == nil %}{{ site.description }}{% else if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:type" content="blog" />
@@ -23,8 +23,8 @@
   <meta name="twitter:site" content="{{ site.twitter_username }}" />
   <meta name="twitter:creator" content="{{ site.twitter_username }}" />
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-  <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="{% if page.layout == 'default' %}{{ site.description }}{% else if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
+  <meta name="twitter:title" content="{% if page.title == nil %}{{ site.title }}{% endif %}{{ page.title }}" />
+  <meta name="twitter:description" content="{% if page.categories == nil %}{{ site.description }}{% else if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
   {% if page.cover %}<meta property="twitter:image" content="{{ site.url}}{{ page.cover }}" />{% endif %}
   <script src="{{ site.url }}/js/turbolinks.min.js"></script>
 </head>
