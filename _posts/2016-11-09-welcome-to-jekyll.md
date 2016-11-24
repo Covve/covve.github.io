@@ -36,7 +36,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis magni ipsum natus
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum mollitia magnam ex, alias est dolorem possimus impedit praesentium, necessitatibus accusantium nulla sunt error numquam itaque perspiciatis et porro quae magni. Ad blanditiis laborum veniam. Laboriosam sunt explicabo fugit ea mollitia quod dignissimos, quam sint quasi. Dolores laudantium exercitationem ex numquam eaque vel earum aperiam placeat cumque alias corrupti adipisci, aliquid culpa, nihil quia accusantium error tempore, quidem ea deleniti eum? Quos perferendis laboriosam rerum repellat id odit corrupti perspiciatis aspernatur molestias placeat maiores, voluptas, voluptatum porro doloribus, consequuntur animi eveniet possimus vel. Veniam eveniet, neque facere odio delectus accusamus vero.
 
-~~~~
+~~~
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum mollitia magnam 
 
 </body>
 </html>
-~~~~
+~~~
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
