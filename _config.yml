@@ -4,8 +4,7 @@ description: Stories from Covve team’s journey towards building the ultimate a
 twitter_username: covve
 github_username: covve
 baseurl: ""
-#url: "https://inside.covve.com"
-url: "http://0.0.0.0:4000"
+url: "https://inside.covve.com"
 permalink: /:title/
 
 
