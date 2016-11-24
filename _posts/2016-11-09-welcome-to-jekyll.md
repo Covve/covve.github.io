@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Examples Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis odio pariatur recusandae expedita explicabo eius optio, et, qui soluta voluptatibus!
+title:  Examples Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis odio pariatur recusandae expedita explicabo eius optio, et, qui soluta!
 categories: Development
 cover: /images/blog/photo.jpg
 author: ma
