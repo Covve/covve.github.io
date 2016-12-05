@@ -112,3 +112,18 @@
     }
   }
 }
+
+// smaller than 800
+@media screen and (max-width: 350px){
+  nav {
+    .logo {
+      width: 80px;
+      margin-bottom: $space * 2;
+    }
+
+    .logo + p {
+      font-size: 14px;
+      width: 65%;
+    }
+  }
+}
