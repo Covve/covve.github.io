@@ -18,6 +18,7 @@ So, here goes, in rough order of awesomeness:
 Unlike google analytics that provides an excellent view of aggregate data (total visits, total signups, total number of contact improvements applied), KM allows us to drill down into behaviours at an individual user level.
 
 Here’s just a few of tens of ways we use KM:
+
 - Funnels: Our “install to Pro subscriber” funnel has many steps. Understanding the drop off at each steps constantly allows us to identify issues and opportunities at a very micro level
 - Testing hypotheses: In v3 of the iPhone app we introduced an optional two minute video highlighting Covve’s USPs. We wanted to know what percentage of people watch it and then whether watching the video has an effect on the specific features being used
 - Features use monitoring: Our dashboard provides an at-a-glance view of how many users are using each of our features (e.g. contact improvements, In Touch, Leads and so on); feeding into our understanding of how Covve adds value to different types of people
@@ -29,6 +30,7 @@ We just love A/B testing, and [Optimizely][optimizely] makes it ridiculously eas
 
 ### Mandrill
 We use [Mandrill][mandrill] for system generated emails ranging from “Please confirm your email” to “You’ve been invited to join Covve by a friend”. Although Mandrill’s UI leaves a lot to be wanted, it does provide some great opportunities (which no doubt other similar services may also provide):
+
 - A/B testing: Here we go again  Setting up A/B tests on emails takes minutes and the results are frankly eye opening
 - Template changes (with no deployment needed): Changing or correcting the copy or design of templates is easy and fast
 
