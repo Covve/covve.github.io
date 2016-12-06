@@ -33,7 +33,7 @@ Here’s just a few of tens of ways we use KM:
 We just love A/B testing, and [Optimizely][optimizely] makes it ridiculously easy to undertake experiments on our website but also on our mobile app. I won’t go on about the value (or pitfalls) of A/B testing as there’s plenty of literature on this already out there. But I do love Optimizely.
 
 ### Mandrill
-![Mandrill logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/mandrill2.png)
+![Mandrill logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/mandrill3.png)
 
 We use [Mandrill][mandrill] for system generated emails ranging from “Please confirm your email” to “You’ve been invited to join Covve by a friend”. Although Mandrill’s UI leaves a lot to be wanted, it does provide some great opportunities (which no doubt other similar services may also provide):
 
