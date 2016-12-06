@@ -2,7 +2,7 @@
 layout: post
 title:  My eight awesome tools for SaaS insights and control
 categories: Product development
-cover: /images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control-1.jpg
+cover: /images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/1.jpg
 author: ap
 ---
 Hi guys,
@@ -13,6 +13,7 @@ So, here goes, in rough order of awesomeness:
 <!--more-->
 
 ### Kissmetrics
+![Kissmetrics logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/kissmetrics.png)
 [Kissmetrics][kissmetrics] is our eyes and ears on the ground. It gives us an unprecedented degree of insight into how our users use Covve and plays a central role in both our regular KPI monitoring and our roadmap decisions making process.
 
 Unlike google analytics that provides an excellent view of aggregate data (total visits, total signups, total number of contact improvements applied), KM allows us to drill down into behaviours at an individual user level.
@@ -62,6 +63,7 @@ We do, of course, have [Google Analytics][google-analytics] in our arsenal. Howe
 
 [kissmetrics]: http://jekyllrb.com/docs/home
 [optimizely]: https://www.optimizely.com
+[appsflyer]: https://www.appsflyer.com
 [pingdom]: https://www.pingdom.com
 [groove]: https://www.groovehq.com
 [ourapp]: https://app.covve.com
