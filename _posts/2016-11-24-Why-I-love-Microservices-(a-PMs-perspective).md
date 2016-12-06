@@ -2,7 +2,7 @@
 layout: post
 title:  Why I love Microservices (a PM's perspective)
 categories: Engineering
-cover: /images/blog/2016-11-24-Why-I-love-Microservices-(a-PMs-perspective)/microservices.jpg
+cover: /images/blog/2016-11-24-Why-I-love-Microservices-(a-PMs-perspective)/microservices.png
 author: ap
 ---
 [Microservices][microservices] has been a buzzword for a while now, and rightly so. For many products, projects and teams they provide solutions to some of the problems of large and complex software systems.
@@ -34,7 +34,7 @@ A couple of warnings here too:
 ### Rapid deployment (and easy maintenance)
 Microservices allows us to confidently make small, rapid and incremental changes to our backend. We average about one release per week and as long as we remain conscious of service boundaries (and follow all the necessary good practices around testing and code quality such as high test coverage and [blue-green deployments][bluegreen]) we can release new features and optimizations with minimal risk and disruption.
 
-Gone are the days of complex release planning, dependency mapping and whole system testing. And with them gone is the release-related stress 
+Gone are the days of complex release planning, dependency mapping and whole system testing. And with them gone is the release-related stress!
 
 ### Breaking dependencies (decoupling)
 Adopting the μS approach forces you to design decoupled services. Services that can be deployed independently, that can operate independently and that treat other services as 3rd parties. When designing, this puts you in a mindset which encourages resilience and forces you to break dependencies. And if you select appropriate boundaries for your services (which, mostly, are aligned to real world domain boundaries) then you’ll automatically create systems that are resilient and maintainable.
@@ -68,6 +68,7 @@ Both of these issues are mostly mitigated by also employing docker, but that’s
 One of the commonly cited drawbacks of the approach is that it makes troubleshooting harder. This is because you often need to trace an issue through a number of services and understand how potentially multiple services contribute to an issue. 
 
 In our case I’m glad to say we haven’t yet come across this. Our centralized logging makes it possible to see the whole picture in one go; and ensuring that all logs carry the right IDs (e.g. userId or requestId) makes it feasible to quickly see the whole sequence of events.
+
 
 All in all I sleep much more easily knowing that our architecture is decoupled, resilient, maintainable and cost effective. And that’s why I love microservices.
 
