@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  My eight awesome tools for SaaS insights and control
-categories: Product development
+categories: Product
 cover: /images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/1.jpg
 author: ap
 ---
