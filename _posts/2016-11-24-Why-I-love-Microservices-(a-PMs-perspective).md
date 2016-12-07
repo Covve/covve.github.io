@@ -5,7 +5,7 @@ categories: Engineering
 cover: /images/blog/2016-11-24-Why-I-love-Microservices-(a-PMs-perspective)/microservices.png
 author: ap
 ---
-[Microservices][microservices] has been a buzzword for a while now, and rightly so. For many products, projects and teams they provide solutions to some of the problems of large and complex software systems.
+[Microservices][microservices] has been a buzzword [for a while now][forawhile], and rightly so. For many products, projects and teams they provide solutions to some of the problems of large and complex software systems.
 
 As such, when our very own Zafeiris first proposed its adoption at Covve back in 2014 (before all the hype) it felt most almost natural given our domain and approach to design. As such, Covve’s backend has been built on microservices principles virtually from day one.
 
@@ -17,7 +17,7 @@ Here’s a glimpse of our microservices environment as it stands today. <!--more
 Three years later we’ve really put the microservices approach to the test and not a single day goes by that I don’t rejoice for this decision. Here’s why: 
 
 ### Right techs for each service
-It enables us to freely select the most appropriate technologies, frameworks and databases for each microservice, depending on its specific job. For example, the service in charge of handling avatars (images) is written in NodeJS since node works naturally with streams while the search service is written in .Net and uses Elastic Search. We are even able to mix traditional and docker deployements as well as custom built and as-a-service offerings.
+It enables us to freely select the most appropriate technologies, frameworks and databases for each microservice, depending on its specific job. For example, the service in charge of handling avatars (images) is written in NodeJS since node works naturally with streams while the search service is written in .Net and uses Elastic Search. We are even able to mix traditional and docker deployments as well as custom built and as-a-service offerings.
 
 A warning is necessary here though. Although microservices really help in picking any tech you want, it doesn’t mean that having multiple technologies in your production environment comes without a cost. Each stack has a learning curve, may need its own devops and CI setup and will have its own unique challenges.
 
@@ -69,9 +69,10 @@ One of the commonly cited drawbacks of the approach is that it makes troubleshoo
 
 In our case I’m glad to say we haven’t yet come across this. Our centralized logging makes it possible to see the whole picture in one go; and ensuring that all logs carry the right IDs (e.g. userId or requestId) makes it feasible to quickly see the whole sequence of events.
 
-
+### Summing up
 All in all I sleep much more easily knowing that our architecture is decoupled, resilient, maintainable and cost effective. And that’s why I love microservices.
 
-[microservices]: https://www.thoughtworks.com/insights/blog/microservices-evolutionary-architecture
+[microservices]: http://www.martinfowler.com/articles/microservices.html
+[forawhile]: https://www.thoughtworks.com/insights/blog/microservices-evolutionary-architecture
 [bluegreen]: http://martinfowler.com/bliki/BlueGreenDeployment.html
 [eventualconsistency]: https://en.wikipedia.org/wiki/Eventual_consistency
