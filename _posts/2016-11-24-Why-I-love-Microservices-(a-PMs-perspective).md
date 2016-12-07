@@ -9,8 +9,8 @@ author: ap
 
 As such, when our very own Zafeiris first proposed its adoption at Covve back in 2014 (before all the hype) it felt most almost natural given our domain and approach to design. As such, Covve’s backend has been built on microservices principles virtually from day one.
 
-Here’s a glimpse of our microservices environment as it stands today. Most services should be self-explanatory as they revolve around core concepts of the Covve business domain such as deduplication of contacts, syncrhonization, contact avatars, improvement of contacts, search and so on.
-<!--more-->
+Here’s a glimpse of our microservices environment as it stands today. <!--more-->Most services should be self-explanatory as they revolve around core concepts of the Covve business domain such as deduplication of contacts, syncrhonization, contact avatars, improvement of contacts, search and so on.
+
 
 ![Covve's Microservices](/images/blog/2016-11-24-Why-I-love-Microservices-(a-PMs-perspective)/covvems.png)
 
