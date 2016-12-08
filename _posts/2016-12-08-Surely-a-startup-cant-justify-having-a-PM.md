@@ -5,7 +5,7 @@ categories: Team
 cover: /images/blog/2016-12-08-Surely-a-startup-cant-justify-having-a-PM/1.jpg
 author: ap
 ---
-On the face of it, investing in a project manager for a small, new startup seems like an unforgivable luxury. Not only is this throwing money at a role that isn’t directly creating value but also seems to go against the philosophy of the startup; flat structures and super motivated crack teams surely don’t need managing, right?
+On the face of it, investing in a project manager for a small, young startup seems like an unforgivable luxury. Not only is this throwing money at a role that isn’t directly creating value but also seems to go against the philosophy of the startup; flat structures and super motivated crack teams surely don’t need managing, right?
 
 Well, despite this here I am, Covve’s PM, feeling not only valuable but actually indispensable. How come?
 <!--more-->
@@ -17,7 +17,7 @@ Lets dig deeper and break down the role. This is a role that:
 
 There is always one person who must be looking at the big picture, the 3 year plan and the long term vision; and that’s usually the CEO. Then there are many people who are super focused on the minute details of their respective parts of the puzzle be it the engineers, designers or marketers.
 
-The PM may be the only person who sees both the big and the small and invests brain space to think of the mid-term. This is important not only for ensuring alignment of the daily activities with the long term masterplan but also for making sure that mid-term goals are given sufficient focus. Overall it’s about understanding how each decision affects (or doesn’t) the company’s KPIs.
+The PM may be the only person who sees both the big and the small picture and invests brain space to think of the mid-term. This is important not only for ensuring alignment of the daily activities with the long term masterplan but also for making sure that mid-term goals are given sufficient focus. Overall it’s about understanding how each decision affects (or doesn’t) the company’s KPIs.
 
 Here’s a recent example. The latest Covve app (v4) includes synchronization of contact notes between Covve and the iPhone. A couple of days post release it became apparent that a fraction of contacts of a handful of users have notes that exceed the maximum allowed size. A low level issue right? Well, understanding how this affects the user experience (TL;DR; new users who’re subject to this issue don’t remain users for long) and knowing the economics of user acquisition (cost per user and conversion funnel success) helped bring this seemingly low level issue to the top of the agenda.
 
