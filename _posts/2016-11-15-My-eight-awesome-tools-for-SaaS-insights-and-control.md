@@ -2,7 +2,7 @@
 layout: post
 title:  My eight awesome tools for SaaS insights and control
 categories: Product
-cover: /images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/2.jpg
+cover: /images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/2.jpg
 author: ap
 ---
 Hi guys,
@@ -13,7 +13,7 @@ So, here goes, in rough order of awesomeness:
 <!--more-->
 
 ### Kissmetrics
-![Kissmetrics logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/kissmetrics2.png)
+![Kissmetrics logo](/images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/kissmetrics2.png)
 
 [Kissmetrics][kissmetrics] is our eyes and ears on the ground. It gives us an unprecedented degree of insight into how our users use Covve and plays a central role in both our regular KPI monitoring and our roadmap decisions making process.
 
@@ -28,12 +28,12 @@ Here’s just a few of tens of ways we use KM:
 - KPI dashboard: Our KM dash provides real time data on all our main KPIs, instantly available and instantly insightful
 
 ### Optimizely
-![Optimizely logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/optimizely2.png)
+![Optimizely logo](/images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/optimizely2.png)
 
 We just love A/B testing, and [Optimizely][optimizely] makes it ridiculously easy to undertake experiments on our website but also on our mobile app. I won’t go on about the value (or pitfalls) of A/B testing as there’s plenty of literature on this already out there. But I do love Optimizely.
 
 ### Mandrill
-![Mandrill logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/mandrill4.png)
+![Mandrill logo](/images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/mandrill4.png)
 
 We use [Mandrill][mandrill] for system generated emails ranging from “Please confirm your email” to “You’ve been invited to join Covve by a friend”. Although Mandrill’s UI leaves a lot to be wanted, it does provide some great opportunities (which no doubt other similar services may also provide):
 
@@ -41,7 +41,7 @@ We use [Mandrill][mandrill] for system generated emails ranging from “Please c
 - Template changes (with no deployment needed): Changing or correcting the copy or design of templates is easy and fast
 
 ### Appsflyer
-![Appsflyer logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/appsflyer2.png)
+![Appsflyer logo](/images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/appsflyer2.png)
 
 [Appsflyer][appsflyer] provides a host of features which overlap with other tools we use. There is however one invaluable piece of information that, from our selection of tools, only Appsflyer provides: the ability to associate post-install behaviour to pre-install acquisition when it comes to our mobile app.
 
@@ -54,22 +54,22 @@ The reason is that the action of installing an app breaks the reporting chain. F
 Appsflyer, magically, transcends this boundary and can tell use which campaigns result in users that are engaged and, ultimately, revenue generating.
 
 ### Pingdom
-![Pingdom logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/pingdom2.png)
+![Pingdom logo](/images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/pingdom2.png)
 
 An elegant and simple solution to a SaaS business’ #1 fear: downtime. [Pingdom][pingdom] is easy to setup, great value for money and does everything I’d like an uptime reporting solution to do.
 
 ### GrooveHQ
-![Groove logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/groove2.png)
+![Groove logo](/images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/groove2.png)
 
 We use [Groove][groove] as our helpdesk platform. Designed for small and medium enterprises, Groove provides exactly what we need from our helpdesk solution and more; at a great price. It also provides a host of peripheral goodies which we enjoy taking advantage of (all included in the price mind you) such as a ready to go knowledge base.
 
 ### Browserstack
-![Browserstack logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/browserstack2.png)
+![Browserstack logo](/images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/browserstack2.png)
 
 When it comes to our web app ([http://app.covve.com][ourapp]), cross browser compatibility is a real concern. [Browserstack][browserstack] has helped us time and time again to test across all conceivable variations of client setup quickly and efficiently.
 
 ### Fabric / Crashlytics
-![Crashlytics logo](/images/blog/2016-12-06-My-eight-awesome-tools-for-SaaS-insights-and-control/crashlytics2.png)
+![Crashlytics logo](/images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/crashlytics2.png)
 
 [Crashlytics][crashlytics] is great for iOS crash reporting. Helps us be fully aware of any and all stability issues on our iOS app, identify the root cause as well as the specific people being affected. Works well and looks cool too.
 
