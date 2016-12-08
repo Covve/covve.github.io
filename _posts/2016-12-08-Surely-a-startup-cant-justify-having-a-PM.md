@@ -49,8 +49,8 @@ Finally the PM comes to pick up all those things that could fall between the cra
 These matters will either be completely missed (to the detriment of the product, the customer or the company) or will be done as an afterthought, seriously deteriorating their value.
 To fill these gaps I’ve come to wear a high stack of different hats from legal and HR to A/B optimizer, testing chief, head of support and overall content writer.
 
-
-So a bit like a swiss army knife the PM employs an array of tools to fill a breadth of roles and gaps, ultimately making the whole team deliver better product faster.
+### All in all
+So, all in all, a bit like a swiss army knife the PM employs an array of tools to fill a breadth of roles and gaps, ultimately making the whole team deliver better product faster.
 So perhaps in the value creation equation, the PM acts as a times (x) and not a plus, multiplying the value of the team.
 
 
