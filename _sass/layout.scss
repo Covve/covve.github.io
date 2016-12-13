@@ -93,6 +93,10 @@ span.vertical-align--middle {
 .padding--one-space {
   padding: $space;
 }
+.padding--top-bottom-two-spaces {
+  padding-top: $space * 2;
+  padding-bottom: $space * 2;
+}
 
 
 // margins
