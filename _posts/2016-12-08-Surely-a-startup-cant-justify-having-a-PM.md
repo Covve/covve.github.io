@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Surely a startup cant justify having a PM
+title:  Surely a startup can’t justify having a PM
 categories: Team
 cover: /images/blog/2016-12-08-Surely-a-startup-cant-justify-having-a-PM/1.jpg
 author: ap

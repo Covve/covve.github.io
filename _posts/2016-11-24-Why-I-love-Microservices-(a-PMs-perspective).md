@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Why I love Microservices (a PM's perspective)
+title:  Why I love Microservices (a PM’s perspective)
 categories: Engineering
 cover: /images/blog/2016-11-24-Why-I-love-Microservices-(a-PMs-perspective)/microservices.png
 author: ap
@@ -14,7 +14,7 @@ Here’s a glimpse of our microservices environment as it stands today. <!--more
 
 ![Covve's Microservices](/images/blog/2016-11-24-Why-I-love-Microservices-(a-PMs-perspective)/covvems.png)
 
-Three years later we’ve really put the microservices approach to the test and not a single day goes by that I don’t rejoice for this decision. Here’s why: 
+Three years later we’ve really put the microservices approach to the test and not a single day goes by that I don’t rejoice for this decision. Here’s why:
 
 ### Right techs for each service
 It enables us to freely select the most appropriate technologies, frameworks and databases for each microservice, depending on its specific job. For example, the service in charge of handling avatars (images) is written in NodeJS since node works naturally with streams while the search service is written in .Net and uses Elastic Search. We are even able to mix traditional and docker deployments as well as custom built and as-a-service offerings.
@@ -46,7 +46,7 @@ It is worth saying that sometimes breaking these dependencies is not an easy tas
 ### Learning curve
 If I take a step back and gaze at our architecture poster on the wall infront of me it is clear that Covve’s backend is large, complex and, no doubt, daunting to anyone new. If someone needed to get to know the whole (or even a large part) of the system before they can be effective it would take an induction year, not week or month.
 
-This is both due to the tech but also due to the domain itself. 
+This is both due to the tech but also due to the domain itself.
 
 With μS, a new joiner doesn’t need to digest all this in one go. They can be very effective very quickly by focusing on a single microservice (lets say our contacts enrichment service), with little need to understand any other part of the system (or even the who business domain).
 
@@ -65,7 +65,7 @@ A couple of notes of caution here:
 Both of these issues are mostly mitigated by also employing docker, but that’s the topic of another blogpost!
 
 ### Troubleshooting
-One of the commonly cited drawbacks of the approach is that it makes troubleshooting harder. This is because you often need to trace an issue through a number of services and understand how potentially multiple services contribute to an issue. 
+One of the commonly cited drawbacks of the approach is that it makes troubleshooting harder. This is because you often need to trace an issue through a number of services and understand how potentially multiple services contribute to an issue.
 
 In our case I’m glad to say we haven’t yet come across this. Our centralized logging makes it possible to see the whole picture in one go; and ensuring that all logs carry the right IDs (e.g. userId or requestId) makes it feasible to quickly see the whole sequence of events.
 
