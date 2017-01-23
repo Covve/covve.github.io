@@ -10,7 +10,7 @@ For those of you not aware of it, Product Hunt is a website that features the wo
 It’s also a tech team’s worst nightmare.
 <!--more-->
 
-#The news-bomb
+###The news-bomb
 
 But lets start at the beginning. It’s a peaceful Friday morning at Covve HQ, the team busy between our Friday brown bag sessions and developing new cool features, when suddenly an email drops from the ether:
 
@@ -24,9 +24,9 @@ So what do you do when news like this drops and the clock is ticking – you gat
 
 With warm cups of coffee and Covve’s architecture diagram on the wall we started agreeing a scaling approach for each part of the system.
 
-#Scale, one piece at a time
+###Scale, one piece at a time
 
-##Databases
+<b>Databases</b>
 
 We get SQL as a service so this one was relatively easy – throw money at it and scale up to the best the platform has to offer. An important point of detail though: make sure scaling operations don’t affect your live users.
 
@@ -34,7 +34,7 @@ Orient DB is next on the menu. This one is deployed as IaaS and in all likelihoo
 
 Elastic Search, again on IaaS, didn’t need bigger machines – it needed more of them. Auto-scaling was already setup so we just needed to provision a few extra servers to raise the upper limit of the scaling operation to five servers.
 
-##Background workers
+<b>Background workers</b>
 
 All of the heavy lifting at Covve is done by a series of very small and very scalable workers. For example the sync service that synchronises individual contacts with Google, Exchange or iPhone or the dedupe service that identifies duplicate contacts.
 
@@ -42,21 +42,21 @@ These workers were explicitly architected to have the smallest business as usual
 
 As such it was simply a matter of changing our scaling settings from a few servers to a few hundred of each type.
 
-##API
+<b>API</b>
 
 The Covve API is hosted on managed PaaS (complete with public load balancing etc.). This one just needed scaling out (a 5 second job).
 
-##Website
+<b>Website</b>
 
 The public website is hosted on IaaS and serves an optimized WordPress site so a bit of scale up did the trick.
 
-##External services
+<b>External services</b>
 
 Following the principle of not reinventing the wheel we use external services wherever we can. Services such as MapBox for serving maps, Mandrill for emails and LogEntries for log management to name a few. For each of these we’d need to review our usage quotas and, where needed, beef up the subscription for the month.
 
 Overall we were looking at scaling up and out our architecture by a factor of around ten – with, now, three hours to go.
 
-#Tick tock.
+###Tick tock.
 
 By t-1:30 the scaled-up “PH build” was ready to deploy
 
@@ -76,6 +76,6 @@ And despite all this (and to my suspicious disbelief) everything had worked like
 
 Thinking back I shouldn’t have been sceptical – every aspect of Covve’s architecture from the very first line of code has been built to scale – and scale big time. The whole exercise was a great proof of the value of doing things properly and aiming high from the outset. It was also great testament to the value of a tightly knit team who know their stuff.
 
-<em>Note: This article was first posted on [http://covve.com/blog][eventualconsistency] in 2015 - it has been reposted here for the benefit of inside.covve.com's audience</em>
+<em>Note: This article was first posted on [covvesblog][http://covve.com/blog] in 2015 - it has been reposted here for the benefit of inside.covve.com's audience</em>
 
 [covvesblog]: http://covve.com/blog
