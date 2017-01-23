@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How we survived Product Hunt with four hours' notice
-categories: Team
+categories: Engineering
 cover: /images/blog/2017-01-23-How-we-survived-Product-Hunt-with-four-hours-notice/1.png
 author: ap
 ---
