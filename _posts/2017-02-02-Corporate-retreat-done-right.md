@@ -36,14 +36,6 @@ Excluding myself (an FPV maniac and [author][author] and, during office hour’s
 
 ![FPV](/images/blog/2017-02-02-Corporate-retreat-done-right/FPV.png)
 
-[http://guidetofpv.com][author]
-[https://en.wikipedia.org/wiki/First-person_view_(radio_control)][FPV]
-[https://foodincrete.wordpress.com/tag/antikristo/][antikristo]
-
-
-
-
-
-
-
-[covvesblog]: http://covve.com/blog
+[author]: http://guidetofpv.com
+[FPV]: https://en.wikipedia.org/wiki/First-person_view_(radio_control)
+[antikristo]: https://foodincrete.wordpress.com/tag/antikristo/
