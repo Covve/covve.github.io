@@ -66,3 +66,16 @@ a {
 .no-link-styling {
   color: $text;
 }
+
+
+// categories heading colouring depending on URL
+section:target .heading {
+  animation-name: text;
+  animation-duration: 1s;
+  color: $red;
+}
+@keyframes text {
+  0% {color: $text; letter-spacing: 0;}
+  20% {color: $red; letter-spacing: 0.5em;}
+  100% {letter-spacing: 0;}
+}
