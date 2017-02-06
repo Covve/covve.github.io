@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Pet project day - Jan 17 - Monitoring, complexity and TensorFlow
-categories: Team
+categories: Engineering
 cover: /images/blog/2017-02-06-Pet-projects-day-1/petproject.png
 author: ap
 ---
