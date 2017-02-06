@@ -60,10 +60,10 @@ So, watch this space for some exciting new features later this year!
 
 
 [microservices]: http://www.martinfowler.com/articles/microservices.html
-[msblogpost] : http://inside.covve.com/Why-I-love-Microservices-(a-PMs-perspective)
-[ionic2] : http://ionic.io/2
-[angular2] : https://angular.io/
-[complexity] : https://en.wikipedia.org/wiki/Computational_complexity_theory
-[logentries] : http://logentries.com
-[loggly] : http://loggly.com
-[tensor] : https://www.tensorflow.org
+[msblogpost]: http://inside.covve.com/Why-I-love-Microservices-(a-PMs-perspective)
+[ionic2]: http://ionic.io/2
+[angular2]: https://angular.io/
+[complexity]: https://en.wikipedia.org/wiki/Computational_complexity_theory
+[logentries]: http://logentries.com
+[loggly]: http://loggly.com
+[tensor]: https://www.tensorflow.org
