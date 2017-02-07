@@ -34,7 +34,7 @@ Always a fan of algorithms and [complexity][complexity], Zafeiris couldn’t res
 
 Utilising an advanced proprietary algorithm tweaked over the course of the last three years, the deduplication service does a great job of identifying potential duplicated contacts and suggesting merges.
 
-The current implementation was, roughly, of O(n^2) complexity, making it exponentially more expensive to run as users’ addressbooks grow in size. This has necessitated both significant scaling of the deduplication servers as well as compromises on the frequency of deduplication checks.
+The current implementation was of O(n^2) complexity, making it exponentially more expensive to run as users’ addressbooks grow in size. This has necessitated both significant scaling of the deduplication servers as well as compromises on the frequency of deduplication checks.
 
 Making clever use of hash tables, Zafeiris reduced this process-intensive problem to O(n) complexity. This has brought a significant decrease in processing power (and cost) and increased responsiveness irrespective of address book size.
 
