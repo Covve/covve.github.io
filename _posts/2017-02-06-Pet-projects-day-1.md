@@ -30,13 +30,13 @@ Next steps involve hooking this up to a service such as Pingdom for alerting the
 
 ![Complexity](/images/blog/2017-02-06-Pet-projects-day-1/complex.png)
 
-Always a fan of algorithms and [complexity][complexity], Zafeiris couldn’t resist tackling one of Covve’s process intensive services – the identification of duplicate contacts in a user’s address books.
+Algorithms, [complexity][complexity] and data structures have always been Zaferis' pets, so he couldn’t resist tackling one of Covve’s process intensive services – the identification of duplicate contacts in a user’s address books.
 
 Utilising an advanced proprietary algorithm tweaked over the course of the last three years, the deduplication service does a great job of identifying potential duplicated contacts and suggesting merges.
 
-The current implementation was of O(n^2) complexity, making it exponentially more expensive to run as users’ addressbooks grow in size. This has necessitated both significant scaling of the deduplication servers as well as compromises on the frequency of deduplication checks.
+The previous implementation was of O(n^2) complexity - comparing all possible pairs of contacts, making it exponentially more expensive to run as users’ addressbooks grow in size. This has necessitated both significant scaling of the deduplication servers as well as compromises on the frequency of deduplication checks.
 
-Making clever use of hash tables, Zafeiris reduced this process-intensive problem to O(n) complexity. This has brought a significant decrease in processing power (and cost) and increased responsiveness irrespective of address book size.
+Given the evolution of our understanding of real world data and recent refinements to Covve's deduplication algorithms, it was now possible to use appropriate data structures that lead to a solution of linear running time cost with the overhead of additional linear memery cost (which is not a bottleneck or concern in this instance). This has brought a significant decrease in processing power (and cost) and increased responsiveness irrespective of address book size.
 
 Our users and balance sheet will no doubt be happy.
 
