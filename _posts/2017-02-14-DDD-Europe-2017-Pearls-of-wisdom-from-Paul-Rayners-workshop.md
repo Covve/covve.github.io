@@ -156,33 +156,33 @@ Remember that [non-core domains][non-core domains] should not be over engineered
 Overall the workshop was an amazing experience! I would recommend it both to DDD newbies and to people who know DDD parts but are not clear on the whole picture. Paul Rayner is a great facilitator, can communicate hard to grasp DDD concepts with ease, while creating a fun and challenging environment for all the participants. Upon enjoying a few drinks on the following days, Paul even suggested ways to [improve our memory][improve our memory]. Cheers to that!
 
 
-[improve our memory] : https://www.amazon.com/Moonwalking-Einstein-Science-Remembering-Everything/dp/0143120530
-[non-core domains] : https://content.pivotal.io/blog/getting-started-with-domain-driven-design-top-3-concepts
-[the core domain] : https://www.infoq.com/presentations/strategic-design-evans
-[core domain] : http://blog.jonathanoliver.com/ddd-strategic-design-core-supporting-and-generic-subdomains/
-[strategic pattern] : http://gorodinski.com/blog/2013/03/11/the-two-sides-of-domain-driven-design/
-[Greg Young’s in DDD Europe 2016] : https://www.youtube.com/watch?v=LDW0QWie21s
-[event sourcing] : https://goodenoughsoftware.net/tag/event-sourcing/
-[Vaughn Vernon’s] : https://vaughnvernon.co/?page_id=168
-[guidelines] : https://vaughnvernon.co/?p=838
-[Aggregates] : http://thepaulrayner.com/blog/aggregates-and-entities-in-domain-driven-design/
-[overwhelming] : http://culttt.com/2014/12/17/aggregates-domain-driven-design/
-[Model Exploration Whirlpool] : http://domainlanguage.com/ddd/whirlpool/
-[bloated objects] : https://martinfowler.com/bliki/AnemicDomainModel.html
-[Paul Rayner’s blog] : http://thepaulrayner.com/archive.html
-[value object] : https://lostechies.com/jimmybogard/2008/05/21/entities-value-objects-aggregates-and-roots/
-[tactical design] : http://gorodinski.com/blog/2013/03/11/the-two-sides-of-domain-driven-design/
-[Alberto Brandolini’s book] : http://eventstorming.com/
-[Game storming] : http://gamestorming.com/
-[event storming] : http://ziobrando.blogspot.gr/2013/11/introducing-event-storming.html
-[domain model] : http://culttt.com/2014/11/12/domain-model-domain-driven-design/
-[Models need to be clear, not big] : https://www.youtube.com/watch?v=yPvef9R3k-M
-[bounded contexts] : https://martinfowler.com/bliki/BoundedContext.html
-[ambiguous] : http://www.jamesshore.com/Agile-Book/ubiquitous_language.html
-[ubiquitous language] : https://martinfowler.com/bliki/UbiquitousLanguage.html
-[effective communicator] : https://www.youtube.com/watch?v=XYw5Mn5yVMM
-[domain experts] : http://www.informit.com/articles/article.aspx?p=1944876
-[business story] : http://thepaulrayner.com/blog/2013/02/15/agile-user-stories-and-domain-driven-design-ddd/
-[Domain-Driven Design] : https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215
-[design is the work] : https://www.youtube.com/watch?v=Bl30X0MvT0I
-[Paul Rayner’s] : http://thepaulrayner.com/about/
+[improve our memory]: https://www.amazon.com/Moonwalking-Einstein-Science-Remembering-Everything/dp/0143120530
+[non-core domains]: https://content.pivotal.io/blog/getting-started-with-domain-driven-design-top-3-concepts
+[the core domain]: https://www.infoq.com/presentations/strategic-design-evans
+[core domain]: http://blog.jonathanoliver.com/ddd-strategic-design-core-supporting-and-generic-subdomains/
+[strategic pattern]: http://gorodinski.com/blog/2013/03/11/the-two-sides-of-domain-driven-design/
+[Greg Young’s in DDD Europe 2016]: https://www.youtube.com/watch?v=LDW0QWie21s
+[event sourcing]: https://goodenoughsoftware.net/tag/event-sourcing/
+[Vaughn Vernon’s]: https://vaughnvernon.co/?page_id=168
+[guidelines]: https://vaughnvernon.co/?p=838
+[Aggregates]: http://thepaulrayner.com/blog/aggregates-and-entities-in-domain-driven-design/
+[overwhelming]: http://culttt.com/2014/12/17/aggregates-domain-driven-design/
+[Model Exploration Whirlpool]: http://domainlanguage.com/ddd/whirlpool/
+[bloated objects]: https://martinfowler.com/bliki/AnemicDomainModel.html
+[Paul Rayner’s blog]: http://thepaulrayner.com/archive.html
+[value object]: https://lostechies.com/jimmybogard/2008/05/21/entities-value-objects-aggregates-and-roots/
+[tactical design]: http://gorodinski.com/blog/2013/03/11/the-two-sides-of-domain-driven-design/
+[Alberto Brandolini’s book]: http://eventstorming.com/
+[Game storming]: http://gamestorming.com/
+[event storming]: http://ziobrando.blogspot.gr/2013/11/introducing-event-storming.html
+[domain model]: http://culttt.com/2014/11/12/domain-model-domain-driven-design/
+[Models need to be clear, not big]: https://www.youtube.com/watch?v=yPvef9R3k-M
+[bounded contexts]: https://martinfowler.com/bliki/BoundedContext.html
+[ambiguous]: http://www.jamesshore.com/Agile-Book/ubiquitous_language.html
+[ubiquitous language]: https://martinfowler.com/bliki/UbiquitousLanguage.html
+[effective communicator]: https://www.youtube.com/watch?v=XYw5Mn5yVMM
+[domain experts]: http://www.informit.com/articles/article.aspx?p=1944876
+[business story]: http://thepaulrayner.com/blog/2013/02/15/agile-user-stories-and-domain-driven-design-ddd/
+[Domain-Driven Design]: https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215
+[design is the work]: https://www.youtube.com/watch?v=Bl30X0MvT0I
+[Paul Rayner’s]: http://thepaulrayner.com/about/
