@@ -2,7 +2,7 @@
 layout: post
 title:  DDD Europe 2017 - Pearls of wisdom from Paul Rayner's workshop
 categories: Engineering
-cover: /images/blog/2017-02-14-DDD-Europe-2017-Pearls-of-wisdom-from-Paul-Rayners-workshop/cover.png
+cover: /images/blog/2017-02-14-DDD-Europe-2017-Pearls-of-wisdom-from-Paul-Rayners-workshop/cover.jpg
 author: vn
 ---
 Having just returned from the truly inspiring DDD Europe 2017 conference, this is a quick run-through of my experience and key pearls of wisdom I gleaned throughout, starting with Paul Rayner’s exceptional workshop on “Essential domain-driven design”.
