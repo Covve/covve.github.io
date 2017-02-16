@@ -5,7 +5,7 @@ categories: Engineering
 cover: /images/blog/2017-02-16-5plus1-things-to-consider-before-starting-with-acs/cover.png
 author: mk
 ---
-Managing a production environment consisting of numerous containerized microservices can pose quite a challenge. Coupling this with the requirement for rapid release cycles and just in time scaling, Azure Container Service (ACS) provides a very promising solution.
+Managing a production environm	ent consisting of numerous containerized microservices can pose quite a challenge. Coupling this with the requirement for rapid release cycles and just in time scaling, Azure Container Service (ACS) provides a very promising solution.
 
 Having adopted ACS at Covve for our production Docker environment, and having learnt tons along the way, this is a run through of some of the main lessons and gotchas we’ve gathered along the way.
 <!--more-->
