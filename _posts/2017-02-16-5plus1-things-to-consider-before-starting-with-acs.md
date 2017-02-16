@@ -54,38 +54,38 @@ Keep in mind that the ACS deployment UI in the Azure portal does not allow such 
 
 ### Lesson 4: Think twice if you are about to deploy a stateful app
 
-At the time of writing, the implementation of the virtual machine scale sets does not allow the attachment of external hard disks on the VMs. That is to say, if you want to deploy a database on a virtual machine you’ll have to depend on the VM’s disks for persisting your data. This is not a good practice when it comes to Azure VMs since the non-OS disks are temporary ([https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-about-disks-vhds][https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-about-disks-vhds]).
+At the time of writing, the implementation of the virtual machine scale sets does not allow the attachment of external hard disks on the VMs. That is to say, if you want to deploy a database on a virtual machine you’ll have to depend on the VM’s disks for persisting your data. This is not a good practice when it comes to Azure VMs since the [non-OS disks are temporary][non-OS disks are temporary].
 
 It is worth saying that we have communicated with the Azure support team on this issue and we have been informed that attaching external hard disks to VMs in a VMSS is a feature that is about to be released in preview soon.
 
-Another reason to be careful when deploying a stateful app is that as of Marathon 1.3.10, persistent storage functionality is still in beta version ([https://mesosphere.github.io/marathon/docs/persistent-volumes.html][https://mesosphere.github.io/marathon/docs/persistent-volumes.html]). Generally speaking, the containerized world is perfect for stateless apps while stateful apps are not its first class citizens yet.
+Another reason to be careful when deploying a stateful app is that as of Marathon 1.3.10, persistent storage functionality is still in beta version ([see more][see more]). Generally speaking, the containerized world is perfect for stateless apps while stateful apps are not its first class citizens yet.
 
 
 ### Lesson 5: Growing support by the community, but still there is a lot to be done.
 
-Microsoft’s documentation ([https://docs.microsoft.com/en-us/azure/container-service/][https://docs.microsoft.com/en-us/azure/container-service/]) is rich in most of its products and ACS is not an exception. However, nowadays the real power comes from the community. It’s true that ACS’s support by the community is not optimum with just a few tens of questions on Stackoverflow and generally limited resources available. This may be normal for a new product but it’s still something to consider.
+[Microsoft’s documentation][Microsoft’s documentation] is rich in most of its products and ACS is not an exception. However, nowadays the real power comes from the community. It’s true that ACS’s support by the community is not optimum with just a few tens of questions on Stackoverflow and generally limited resources available. This may be normal for a new product but it’s still something to consider.
 
 
 ### Lesson 5+1: DC/OS specific
 
 This lesson comes from our experience on DC/OS and its components. Investing in such a technology was a normal-risk and high-profit decision to take. Some months after this decision and while our services are live in this environment here are only two of the most important outcomes that I would like to share.
 
-DC/OS stands for Data Center Operating System. Are you sure that you need such a capability, i.e a Data Center? Are you in this level of scaling? Are you about to reach it or is this requirement in a really distant future? Investing in a technology that is built for a Data Center scale may not be the best match for simpler scenarios with limited size clusters. The additional system complexity may be an overkill or the costs may get out of budget. 
+Firstly, DC/OS stands for Data Center Operating System. Are you sure that you need such a capability, i.e a Data Center? Are you in this level of scaling? Are you about to reach it or is this requirement in a really distant future? Investing in a technology that is built for a Data Center scale may not be the best match for simpler scenarios with limited size clusters. The additional system complexity may be an overkill or the costs may get out of budget. 
 
 For example, you deploy an ACS with DC/OS with three master nodes of D2V2 size (a typical production scenario). They cost about 300$ per month. The master nodes hold the DC/OS and manage the agents’ cluster. No services can be deployed in the masters. If you deploy 3 D2V2 agents where your services will live then you’ll have a “supportive” infrastructure (masters) of a similar cost to the actual “productive” infrastructure.
 
 ![Are you running a DC](/images/blog/2017-02-16-5plus1-things-to-consider-before-starting-with-acs/datacentre.png)
 
-- Many of the Mesos frameworks (Redis, Elasticsearch etc) are in alpha or beta phases at this moment. Even if the promise to have an Elasticsearch cluster “as-a-service” seems really appealing and a great reason to adopt DC/OS, in my point of view it would not be wise to use it at this point in time in a production environment.
+Secondly, many of the Mesos frameworks (Redis, Elasticsearch etc) are in alpha or beta phases at this moment. Even if the promise to have an Elasticsearch cluster “as-a-service” seems really appealing and a great reason to adopt DC/OS, in my point of view it would not be wise to use it at this point in time in a production environment.
 
 
 ### Conclusion
 
 To sum up, Azure container service is a great PaaS solution which abstracts the installation and configuration of the orchestration and scheduling tools that are necessary for a large scale production cluster. Through leveraging the Docker format the compatibility and consensus with the community is great and keeps up with the hottest trends in devops. Of course, there are quite a few issues to resolve but it’s just normal for a product/collection-of-products that is still young and under development. 
 
-[https://docs.microsoft.com/en-us/azure/container-service/]: https://docs.microsoft.com/en-us/azure/container-service/
-[https://mesosphere.github.io/marathon/docs/persistent-volumes.html]: https://mesosphere.github.io/marathon/docs/persistent-volumes.html
-[https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-about-disks-vhds]: https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-about-disks-vhds
+[Microsoft’s documentation]: https://docs.microsoft.com/en-us/azure/container-service/
+[see more]: https://mesosphere.github.io/marathon/docs/persistent-volumes.html
+[non-OS disks are temporary]: https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-about-disks-vhds
 [DC/OS]: https://dcos.io
 [Docker Swarm]: https://www.docker.com/products/docker-swarm
 [Kubernetes]: https://kubernetes.io
