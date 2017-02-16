@@ -14,7 +14,7 @@ Having adopted ACS at Covve for our production Docker environment, and having le
 
 In a microservices environment, each service will consist of many containers which are spawned and die dynamically inside physical hosts that scale out and in. In the meantime, for each service, the outside world must have a fixed endpoint always available to respond to a request. 
 
-These are exactly the challenges which ACS promises to deal with. It simpler and for an engineering team to create and manage containerized applications. It does so through leveraging the Docker format and offering a variety of famous tools such as [DC/OS][DC/OS], [Docker Swarm][Docker Swarm] and [Kubernetes][Kubernetes] for scheduling and orchestration.  
+These are some of the challenges which ACS promises to deal with. It makes it simpler for an engineering team to create and manage containerized applications. It does so through leveraging the Docker format and offering a variety of famous tools such as [DC/OS][DC/OS], [Docker Swarm][Docker Swarm] and [Kubernetes][Kubernetes] for scheduling and orchestration.  
 
 In Covve we adopted ACS along with DC/OS about a semester ago in order to deploy part of our solution. The first phase included the deployment of our stateless dockerized services. The second phase included the deployment of our stateful services and most specifically some of our databases (Redis, Cassandra, Elasticsearch).  Phase one is already in production and phase two is on its way. Based on this experience, here are 5 + 1 things to keep in mind before starting with Azure Container Service.
 
