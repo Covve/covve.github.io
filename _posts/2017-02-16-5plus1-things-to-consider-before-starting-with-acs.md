@@ -31,11 +31,13 @@ The entire JSON that describes an ACS and its components can be exported from an
 
 *Go to the ACS resource group deployment, Automation script and Download the template.*
 
+
 ### Lesson 2: It’s something between PaaS and IaaS – What happens with software updates?
 
 When you deploy an ACS you actually deploy a set of resources along with some preconfigured software for scheduling, orchestration, containerization etc. Once ACS is deployed, releasing your first dockerized service can happen immediately. In this respect, ACS behaves like a typical PaaS setup (which nowadays is transformed to Containers as a Service - CaaS). 
 
 However, updating the various software components is not provided by Azure (which is actually IaaS-like behavior). This means that updating your DC/OS and all of its components in a production cluster while ensuring no downtime is practically impossible. An update like this can only happen through deploying a brand new ACS with the new versions preinstalled. After that, you should redeploy all your services. Do not worry though, since deploying fast and uniformly your services is one of the most important promises of the containerized world!
+
 
 ### Lesson 3: Choose your agents wisely
 
@@ -49,6 +51,7 @@ Keep in mind that the ACS deployment UI in the Azure portal does not allow such 
 
 *DC/OS agents with mostly CPU intensive services. Memory is mostly unallocated.*
 
+
 ### Lesson 4: Think twice if you are about to deploy a stateful app
 
 At the time of writing, the implementation of the virtual machine scale sets does not allow the attachment of external hard disks on the VMs. That is to say, if you want to deploy a database on a virtual machine you’ll have to depend on the VM’s disks for persisting your data. This is not a good practice when it comes to Azure VMs since the non-OS disks are temporary ([https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-about-disks-vhds][https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-about-disks-vhds]).
@@ -57,20 +60,24 @@ It is worth saying that we have communicated with the Azure support team on this
 
 Another reason to be careful when deploying a stateful app is that as of Marathon 1.3.10, persistent storage functionality is still in beta version ([https://mesosphere.github.io/marathon/docs/persistent-volumes.html][https://mesosphere.github.io/marathon/docs/persistent-volumes.html]). Generally speaking, the containerized world is perfect for stateless apps while stateful apps are not its first class citizens yet.
 
+
 ### Lesson 5: Growing support by the community, but still there is a lot to be done.
 
 Microsoft’s documentation ([https://docs.microsoft.com/en-us/azure/container-service/][https://docs.microsoft.com/en-us/azure/container-service/]) is rich in most of its products and ACS is not an exception. However, nowadays the real power comes from the community. It’s true that ACS’s support by the community is not optimum with just a few tens of questions on Stackoverflow and generally limited resources available. This may be normal for a new product but it’s still something to consider.
+
 
 ### Lesson 5+1: DC/OS specific
 
 This lesson comes from our experience on DC/OS and its components. Investing in such a technology was a normal-risk and high-profit decision to take. Some months after this decision and while our services are live in this environment here are only two of the most important outcomes that I would like to share.
 
 - DC/OS stands for Data Center Operating System. Are you sure that you need such a capability, i.e a Data Center? Are you in this level of scaling? Are you about to reach it or is this requirement in a really distant future? Investing in a technology that is built for a Data Center scale may not be the best match for simpler scenarios with limited size clusters. The additional system complexity may be an overkill or the costs may get out of budget. 
-![Are you running a DC](/images/blog/2017-02-16-5plus1-things-to-consider-before-starting-with-acs/datacentre.png)
 
 Example: You deploy an ACS with DC/OS with three master nodes of D2V2 size (a typical production scenario). They cost about 300$ per month. The master nodes hold the DC/OS and manage the agents’ cluster. No services can be deployed in the masters. If you deploy 3 D2V2 agents where your services will live then you’ll have a “supportive” infrastructure (masters) of a similar cost to the actual “productive” infrastructure.
 
+![Are you running a DC](/images/blog/2017-02-16-5plus1-things-to-consider-before-starting-with-acs/datacentre.png)
+
 - Many of the Mesos frameworks (Redis, Elasticsearch etc) are in alpha or beta phases at this moment. Even if the promise to have an Elasticsearch cluster “as-a-service” seems really appealing and a great reason to adopt DC/OS, in my point of view it would not be wise to use it at this point in time in a production environment.
+
 
 ### Conclusion
 
