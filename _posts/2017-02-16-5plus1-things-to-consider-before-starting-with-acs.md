@@ -70,9 +70,9 @@ Microsoft’s documentation ([https://docs.microsoft.com/en-us/azure/container-s
 
 This lesson comes from our experience on DC/OS and its components. Investing in such a technology was a normal-risk and high-profit decision to take. Some months after this decision and while our services are live in this environment here are only two of the most important outcomes that I would like to share.
 
-- DC/OS stands for Data Center Operating System. Are you sure that you need such a capability, i.e a Data Center? Are you in this level of scaling? Are you about to reach it or is this requirement in a really distant future? Investing in a technology that is built for a Data Center scale may not be the best match for simpler scenarios with limited size clusters. The additional system complexity may be an overkill or the costs may get out of budget. 
+DC/OS stands for Data Center Operating System. Are you sure that you need such a capability, i.e a Data Center? Are you in this level of scaling? Are you about to reach it or is this requirement in a really distant future? Investing in a technology that is built for a Data Center scale may not be the best match for simpler scenarios with limited size clusters. The additional system complexity may be an overkill or the costs may get out of budget. 
 
-Example: You deploy an ACS with DC/OS with three master nodes of D2V2 size (a typical production scenario). They cost about 300$ per month. The master nodes hold the DC/OS and manage the agents’ cluster. No services can be deployed in the masters. If you deploy 3 D2V2 agents where your services will live then you’ll have a “supportive” infrastructure (masters) of a similar cost to the actual “productive” infrastructure.
+For example, you deploy an ACS with DC/OS with three master nodes of D2V2 size (a typical production scenario). They cost about 300$ per month. The master nodes hold the DC/OS and manage the agents’ cluster. No services can be deployed in the masters. If you deploy 3 D2V2 agents where your services will live then you’ll have a “supportive” infrastructure (masters) of a similar cost to the actual “productive” infrastructure.
 
 ![Are you running a DC](/images/blog/2017-02-16-5plus1-things-to-consider-before-starting-with-acs/datacentre.png)
 
