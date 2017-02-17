@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  DDD Europe 2017 - Pearls of wisdom from Paul Rayner's workshop
+title:  DDD Europe 2017 - Pearls of wisdom from Paul Rayner's Essential Domain-Driven Design workshop
 categories: Engineering
 cover: /images/blog/2017-02-14-DDD-Europe-2017-Pearls-of-wisdom-from-Paul-Rayners-workshop/cover.jpg
 author: vn
 ---
-Having just returned from the truly inspiring DDD Europe 2017 conference, this is a quick run-through of my experience and key pearls of wisdom I gleaned throughout, starting with Paul Rayner’s exceptional workshop on “Essential domain-driven design”.
+Having just returned from the truly inspiring DDD Europe 2017 conference, this is a quick run-through of my experience and key pearls of wisdom I gleaned throughout, starting with Paul Rayner’s exceptional workshop on “[Essential domain-driven design][Essential domain-driven design]”.
 <!--more-->
 
 ### A traveller's adventure
@@ -155,7 +155,7 @@ Remember that [non-core domains][non-core domains] should not be over engineered
 
 Overall the workshop was an amazing experience! I would recommend it both to DDD newbies and to people who know DDD parts but are not clear on the whole picture. Paul Rayner is a great facilitator, can communicate hard to grasp DDD concepts with ease, while creating a fun and challenging environment for all the participants. Upon enjoying a few drinks on the following days, Paul even suggested ways to [improve our memory][improve our memory]. Cheers to that!
 
-
+[Essential domain-driven design]: https://dddeurope.com/2017/speakers/paul-rayner/
 [improve our memory]: https://www.amazon.com/Moonwalking-Einstein-Science-Remembering-Everything/dp/0143120530
 [non-core domains]: https://content.pivotal.io/blog/getting-started-with-domain-driven-design-top-3-concepts
 [the core domain]: https://www.infoq.com/presentations/strategic-design-evans
