@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  5 + 1 things to consider before starting with Azure Container Service
+title:  Uploading Block Blobs larger than 256 MB in Azure
 categories: Engineering
 cover: /images/blog/2017-02-20-Uploading-Block-Blobs-larger-than-256-Mb-in-Azure/blob.png
 author: mk
@@ -52,8 +52,9 @@ namespace someNamespace
             var sasBlobToken = blob.GetSharedAccessSignature(sasConstraints);
             var sasUri = blob.Uri + sasBlobToken;
 
-var file = File.ReadAllBytes(@"C:\PathToFile\FileToUpload");         const int pageSizeInBytes = 104857600; //100MB for requests using REST versions after 2016-05-31
-     //const int pageSizeInBytes = 4096; //4MB for requests using REST versions before 2016-05-31
+			var file = File.ReadAllBytes(@"C:\PathToFile\FileToUpload");
+			const int pageSizeInBytes = 104857600; //100MB for requests using REST versions after 2016-05-31
+			//const int pageSizeInBytes = 4096; //4MB for requests using REST versions before 2016-05-31
             var prevLastByte = 0;
             var bytesRemain = file.Length;
             var blockIds = new List<string>();
@@ -75,13 +76,11 @@ var file = File.ReadAllBytes(@"C:\PathToFile\FileToUpload");         const int p
                 //post block
                 using (var client = new HttpClient()) {
                     var request = new HttpRequestMessage(HttpMethod.Put, uri);
-    request.Headers.Add("x-ms-version", "2016-05-31"); //for requests using REST versions after 2016-05-31
-      //request.Headers.Add("x-ms-version", "2015-04-05"); //for requests using REST versions before 2016-05-31
-
+					request.Headers.Add("x-ms-version", "2016-05-31"); //for requests using REST versions after 2016-05-31
+					//request.Headers.Add("x-ms-version", "2015-04-05"); //for requests using REST versions before 2016-05-31
                     request.Content = new ByteArrayContent(bytesToSend);
                     await client.SendAsync(request);
                 }
-
             } while (bytesRemain > 0);
 
             //post blocklist
@@ -89,8 +88,8 @@ var file = File.ReadAllBytes(@"C:\PathToFile\FileToUpload");         const int p
             var xmlBlockIds = new XElement("BlockList", blockIds.Select(t => new XElement("Latest", t)));
             using (var client = new HttpClient()) {
                 var request = new HttpRequestMessage(HttpMethod.Put, block-listUri);
-request.Headers.Add("x-ms-version", "2016-05-31"); //for re-quests using REST versions after 2016-05-31
-  //request.Headers.Add("x-ms-version", "2015-04-05"); //for re-quests using REST versions before 2016-05-31
+				request.Headers.Add("x-ms-version", "2016-05-31"); //for re-quests using REST versions after 2016-05-31
+				//request.Headers.Add("x-ms-version", "2015-04-05"); //for re-quests using REST versions before 2016-05-31
                 request.Content = new StringContent(xmlBlockIds.ToString(), Encoding.UTF8, "application/xml");
                 await client.SendAsync(request);
             }
