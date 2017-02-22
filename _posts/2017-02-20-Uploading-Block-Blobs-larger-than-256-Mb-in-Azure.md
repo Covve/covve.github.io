@@ -52,9 +52,9 @@ namespace someNamespace
             var sasBlobToken = blob.GetSharedAccessSignature(sasConstraints);
             var sasUri = blob.Uri + sasBlobToken;
 
-			var file = File.ReadAllBytes(@"C:\PathToFile\FileToUpload");
-			const int pageSizeInBytes = 104857600; //100MB for requests using REST versions after 2016-05-31
-			//const int pageSizeInBytes = 4096; //4MB for requests using REST versions before 2016-05-31
+	var file = File.ReadAllBytes(@"C:\PathToFile\FileToUpload");
+	const int pageSizeInBytes = 104857600; //100MB for requests using REST versions after 2016-05-31
+	//const int pageSizeInBytes = 4096; //4MB for requests using REST versions before 2016-05-31
             var prevLastByte = 0;
             var bytesRemain = file.Length;
             var blockIds = new List<string>();
