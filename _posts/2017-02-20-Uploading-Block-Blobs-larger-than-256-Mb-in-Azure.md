@@ -76,8 +76,8 @@ namespace azure.common
                 //post block
                 using (var client = new HttpClient()) {
                     var request = new HttpRequestMessage(HttpMethod.Put, uri);
-			        request.Headers.Add("x-ms-version", "2016-05-31"); //for requests using REST versions after 2016-05-31
-			        //request.Headers.Add("x-ms-version", "2015-04-05"); //for requests using REST versions before 2016-05-31
+	            	request.Headers.Add("x-ms-version", "2016-05-31"); //for requests using REST versions after 2016-05-31
+	           	 //request.Headers.Add("x-ms-version", "2015-04-05"); //for requests using REST versions before 2016-05-31
                     request.Content = new ByteArrayContent(bytesToSend);
                     await client.SendAsync(request);
                 }
