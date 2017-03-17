@@ -30,7 +30,7 @@ More importantly it established an agreed approach for dealing with such occuren
 
 Iasonas is the newest member of the cross-platform (XP) team, focused these days on the [Ionic 2][ionic2] and [Angular 2][Angular2] aspects of Covve's next generation app. The XP app is currently in production on Android and is planned to replace the existing native iOS app in due course.
 
-In many ways the Covve cross platform app already meets the definition of a [pwa][Progressive Web App] (PWA), namely:
+In many ways the Covve cross platform app already meets the definition of a [Progressive Web App][pwa] (PWA), namely:
 
 "Progressive Web Apps are user experiences that have the reach of the web, and are:
 - Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.
