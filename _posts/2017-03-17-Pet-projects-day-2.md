@@ -7,7 +7,7 @@ author: ap
 ---
 The last Friday of each month is Pet Project day over here at Covve. Giving ourselves the time to experiment with new and exciting technologies, try out new approaches or just scratch that technological itch.
 
-February’s pet projects ranged from an experimentation with progressive web apps to putting our code's deisgn to test against Martin Fowler's personal pet hate, the anemic model anti-pattern
+February’s pet projects ranged from an experimentation with progressive web apps to putting our code's deisgn to test against Martin Fowler's personal pet hate, the anemic model anti-pattern.
 <!--more-->
 
 ### Andy and Zafeiris: The anemic domain model anti-pattern (a cost/benefit analysis)
@@ -16,9 +16,9 @@ February’s pet projects ranged from an experimentation with progressive web ap
 
 Discussions into correct design, use of patterns and maintainable and future proof code is quite common around the water cooler. 
 
-So, with a statement as powerful as the above, from an authority as credible as [martin][Martin Fowler], Zafeiris and Andy just couldn't resist joining forces and putting our code to the test.
+So, with a statement as powerful as the above, from an authority as credible as [Martin Fowler][martin], Zafeiris and Andy just couldn't resist joining forces and putting our code to the test.
 
-[anemic][Anemic models], in Martin's words, are objects which, when you look at their behavior, you realize that there is hardly any behavior on them, making them little more than bags of getters and setters. They're considered an anti-pattern because they incur all of the costs of a domain model, without yielding any of the benefits.
+[Anemic models][anemic], in Martin's words, are objects which, when you look at their behavior, you realize that there is hardly any behavior on them, making them little more than bags of getters and setters. They're considered an anti-pattern because they incur all of the costs of a domain model, without yielding any of the benefits.
 
 This pet project searched for occurences of this anti-pattern in the codebase of our cross-platform app and evaluated both why they came about and the implications (both cost and benefit) of addressing them.
 
@@ -28,7 +28,7 @@ More importantly it established an agreed approach for dealing with such occuren
 
 ![pwa](/images/blog/2017-03-17-Pet-projects-day-2/pwa.png)
 
-Iasonas is the newest member of the cross-platform (XP) team, focused these days on the [ionic2][Ionic 2] and [Angular2][Angular 2] aspects of Covve's next generation app. The XP app is currently in production on Android and is planned to replace the existing native iOS app in due course.
+Iasonas is the newest member of the cross-platform (XP) team, focused these days on the [Ionic 2][ionic2] and [Angular 2][Angular2] aspects of Covve's next generation app. The XP app is currently in production on Android and is planned to replace the existing native iOS app in due course.
 
 In many ways the Covve cross platform app already meets the definition of a [pwa][Progressive Web App] (PWA), namely:
 
@@ -44,7 +44,7 @@ Iasonas's investigation tested the feasibility and desirability of homogenising 
 ### Michael: A quick push notifications proof of concept
 ![firebase](/images/blog/2017-03-17-Pet-projects-day-2/firebase.png)
 
-For a long time the team have toyed with the idea of introducing push notifications across Covve's three platforms (cross platform Android app, iOS app and web single page application). Michael's pet project conducted the preliminary research into this. He evaluated a number of SaaS offerings and implemented a quick PoC using Google's [firebase][Firebase].
+For a long time the team have toyed with the idea of introducing push notifications across Covve's three platforms (cross platform Android app, iOS app and web single page application). Michael's pet project conducted the preliminary research into this. He evaluated a number of SaaS offerings and implemented a quick PoC using Google's [Firebase][firebase].
 
 Having assessed the implications we now have confidence in the effort and implications of implementing push notifications across Covve.
 
