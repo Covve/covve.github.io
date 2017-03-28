@@ -14,7 +14,7 @@ February’s pet projects ranged from an experimentation with progressive web ap
 
 ![AnemicModel](/images/blog/2017-03-17-Pet-projects-day-2/anemicmodel.png)
 
-Discussions into correct design, use of patterns and maintainable and future proof code are quite common around the water cooler. 
+Discussions into correct design, use of patterns and maintainable and future proof code are quite common around the espresso machine. 
 
 So, with a statement as powerful as the above, from an authority as credible as [Martin Fowler][martin], Zafeiris and Andy just couldn't resist joining forces and putting our code to the test.
 
@@ -50,10 +50,12 @@ Or, bypassing some of the high level fluff, a [fuller definition][fullerdef] wou
 - Linkable - Easily share the application via URL, does not require complex installation.
 
 However, on further analysis there are two main reasons that make it undesirable for us to consolidate our mobile and and our web app despite the significant degree of commonality between them:
-a) Although the business domain is indeed identical, the Covve mobile app provides, by design, a very different feature set and experience to the web app - in essense the two apps are complementary. For example, the focal point of the web app is the interactive mapping and analytics of the user's contact network which necessitates larger screens. The mobile app does not have this feature but is instead heavier on comms-related features such as logging each call made and enabling the user to take notes against it. So, the two apps are by design different in their features and behaviour.
+
+a) Although the business domain is indeed identical, the Covve mobile app provides, by design, a very different feature set and experience to the web app - in essense the two apps are complementary, not overlapping. For example, the focal point of the web app is the interactive mapping and analytics of the user's contact network which necessitates larger screens. The mobile app does not have this feature but is instead heavier on comms-related features such as logging each call made and enabling the user to take notes against it. So, the two apps are by design different in their features and behaviour.
+
 b) A fundamental part of the Covve mobile app is synchronization with the user's device address book. This is not [currently supported by PWAs][pwafeatures].
 
-In summary, Iasonas's investigation tested the feasibility and desirability of homogenising all our clients onto a single PWA and experimented with some of the latest PWA technologies. We now have a clearer understanding of the art of the possible and some educated inputs into our product roadmap. We we also continue to monitor this space with interest.
+In summary, Iasonas' investigation tested the feasibility and desirability of homogenising all our clients onto a single PWA and experimented with some of the latest PWA technologies. We now have a clearer understanding of the art of the possible and some educated inputs into our product roadmap. We we also continue to monitor this space with interest.
 
 ### Michael: A quick push notifications proof of concept
 ![firebase](/images/blog/2017-03-17-Pet-projects-day-2/firebase.png)
