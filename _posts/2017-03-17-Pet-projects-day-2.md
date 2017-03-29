@@ -16,7 +16,7 @@ February’s pet projects ranged from an experimentation with progressive web ap
 
 Discussions into correct design, use of patterns and maintainable and future proof code are quite common around the espresso machine. 
 
-So, with a statement as powerful as the above, from an authority as credible as [Martin Fowler][martin], Zafeiris and Andy just couldn't resist joining forces and putting our code to the test.
+So, with a statement as powerful as the quote in the image above, from an authority as credible as [Martin Fowler][martin], Zafeiris and Andy just couldn't resist joining forces and putting our code to the test.
 
 [Anemic models][anemic], in Martin's words, are objects which, when you look at their behavior, you realize that there is hardly any behavior on them, making them little more than bags of getters and setters. They're considered an anti-pattern because they incur all of the costs of a domain model, without yielding any of the benefits.
 
