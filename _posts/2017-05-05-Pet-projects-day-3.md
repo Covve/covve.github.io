@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Pet project day - April 17 - Watson, chatbots, event stores and cross platform dev ops
+title:  Pet project day - April 17 - Watson, event sourcing and cross platform dev ops
 categories: Engineering
 cover: /images/blog/2017-05-05-Pet-projects-day-3/petproject.png
 author: ap
 ---
 The last Friday of each month is Pet Project day over here at Covve. Giving ourselves the time to experiment with new and exciting technologies, try out new approaches or just scratch that technological itch.
 
-April's pet projects included a bottom up review of cross platform devops, and experimentation with Watson and event sourcing.
+April's pet projects included a bottom up review of cross platform devops and experimentation with Watson and event sourcing.
 <!--more-->
 
 ### Iasonas: Cross platform app devops
@@ -31,7 +31,7 @@ thoroughly understand the various components of our code infrastructure I did a 
 
 Event sourcing is an approach whereby events are a primary citizen of the system (a role usually given to the data source itself). All events ever created are permanently stored and can be replayed in order to calculate today's state.
 
-Lets take a classic online bookstore as an example. And lets say that our user added 3 products to the basket, then removed one and then submitted their order. In a traditional model we'd be storing the entity called "order" which would include two items. The information about the removal of the third item would not be captures. In an event sourcing world we'd be storing the five actions that led to this final state, i.e. add item, add item, add item, remove item, submit order.
+Lets take a classic online bookstore as an example. And lets say that our user added 3 products to the basket, then removed one and then submitted their order. In a traditional model we'd be storing the entity called "order" which would include two items. The information about the removal of the third item would not be captured. In an event sourcing world we'd be storing the five actions that led to this final state, i.e. add item, add item, add item, remove item, submit order.
 
 Adopting this approach can provide some interesting opportunities. My two favourites are:
 - No information loss. Not only does this provide an excellent audit trail but it also provides an absolute treasure trove of data for use in yet-to-be-thought-of analyses
@@ -41,15 +41,15 @@ For more on event sourcing check out [http://docs.geteventstore.com/introduction
 
 ### Zafeiris: Watson
 
-AI is of course all the rage these days. At Covve we've been using machine learning technique for a while now with good results. Zaf undertook to play around with one of the most popular AI's out there and identify potential opportunities for us.
+AI is of course all the rage these days. At Covve we've been using machine learning techniques for a while now with good results. Zaf undertook to play around with one of the most popular AI's out there and identify potential opportunities for us.
 
-A pet project day later - we now understand a lot more about what [Watson] can do and gave even identified a couple of implementations which provide an excellent fit with our business and our product. However, the next big question is value for money... and that's where trouble may lie...
+A pet project day later - we now understand a lot more about what [Watson] can do and have even identified a couple of implementations which provide an excellent fit with our business and our product. However, the next big question is value for money... and that's where trouble may lie...
 
 ### Manolis: Build Stuff conference (Majorca)
 
 ![BuildStuff](/images/blog/2017-05-05-Pet-projects-day-3/buildstuff.jpg)
 
-In case you're wondering what Manolis was up to this pet project day... he was attending the [buildstuff][Build Stuff] conference in Majorca. We are not jealous at all.
+In case you're wondering what Manolis was up to this pet project day... he was attending the [Build Stuff][buildstuff] conference in Majorca. We are not jealous at all.
 
 [Watson]: https://www.ibm.com/watson/
 [http://docs.geteventstore.com/introduction/4.0.0/event-sourcing-basics/]: http://docs.geteventstore.com/introduction/4.0.0/event-sourcing-basics/
