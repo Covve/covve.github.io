@@ -2,7 +2,7 @@
 layout: post
 title:  From Toronto to Athens - stories from Sharon and Jasmine's internship at Covve
 categories: Engineering
-cover: /images/blog/2017-06-27-End-of-internship/cover.png
+cover: /images/blog/2017-06-27-Toronto-to-Athens-Internship/cover.png
 author: ap	
 ---
 Last Friday marked the end of the internship for Jasmine and Sharon. They joined us all the way from the University of Toronto, Canada through the [AIESEC][AIESEC] program. In two short months they got immersed not only in Greek culture but also what it means to be part of a startup.
@@ -21,7 +21,7 @@ The result was worth it though - the final presentation to our CEO was a resound
 And here's a short summary of her experiences in Jasmine's own words:
 "As a business intern for Covve, I got the opportunity to research and test a new feature for the address book app. The feature project had taught me many skills and helped me grow as a business professional.  The company provided me with great flexibility on what I could do with the feature project and were always open to new ideas. The management team was very motivating and highly interactive at every stage of my internship. Overall, the company culture is commendable; everyone on the team was very friendly and are passionate about their work. The past two months with Covve in Athens Greece have been incredible and I will be continuing my journey with the company through their app!"
 
-![Farewelldrinks](/images/blog/2017-06-27-End-of-internship/farewell1.jpg)
+![Farewelldrinks](/images/blog/2017-06-27-Toronto-to-Athens-Internship/farewell1.jpg)
 
 ### Sharon: Sales strategy, content creation and lead generation
 
@@ -36,6 +36,6 @@ Working closely with Covve's head of Customer Success, Sharon was able in a shor
 And here's a short summary of her experiences in Sharon's own words:
 "Coming to Athens and joining Covve was probably one of the most adventurous, yet rewarding experience I’ve had so far. The second day after I arrived Athens, I was welcomed in Covve’s office with loads of handshakes (and frappe), didn’t know what was ahead and what to expect. However, 8 weeks have really passed in a blink of an eye, and this 8-week internship with Covve has really allowed me to learn the practical side of a growing business, as well as take ownership of my own project, and most importantly, to work with a group of amazing and passionate people. It is a safe place to ask questions, attempt new things, give my perspectives, and voice my thoughts. Thank you Covve for all the amazing opportunities and support, and it’s been a blast!"
 
-![finalsouvlaki](/images/blog/2017-06-27-End-of-internship/finalsouvlaki1.jpg)
+![finalsouvlaki](/images/blog/2017-06-27-Toronto-to-Athens-Internship/finalsouvlaki1.jpg)
 
 [AIESEC]: http://aiesec.org
