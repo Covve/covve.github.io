@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Toronto to Athens - Covve's first summer internship
+title:  From Toronto to Athens - stories from Sharon and Jasmine's internship at Covve
 categories: Engineering
 cover: /images/blog/2017-06-27-End-of-internship/cover.png
 author: ap
