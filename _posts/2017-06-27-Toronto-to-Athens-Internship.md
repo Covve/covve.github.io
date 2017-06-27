@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  From Toronto to Athens - stories from Sharon and Jasmine's internship at Covve
-categories: Engineering
+categories: Team
 cover: /images/blog/2017-06-27-Toronto-to-Athens-Internship/cover.png
 author: ap	
 ---
