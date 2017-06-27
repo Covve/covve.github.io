@@ -7,7 +7,7 @@ author: ap
 ---
 Last Friday marked the end of the internship for Jasmine and Sharon. They joined us all the way from the University of Toronto, Canada through the [AIESEC][AIESEC] program. In two short months they got immersed not only in Greek culture but also what it means to be part of a startup.
 
-They were both given challenging and meaningful roles in the team - from undertaking the feasibility study and prototype for one of Covve most ambitious and unique projects yet to leading our Universities sales and partnerships strategy. And now that its all over I'm pleased to say they both delivered exceptionally, or, in our CEO's words "This is excellent! This is results!".
+They were both given challenging and meaningful roles in the team and now that its all over I'm pleased to say they both delivered exceptionally, or, in our CEO's words "This is excellent! This is results!".
 <!--more-->
 
 ### Jasmine: Feasibility study, analysis and prototype
