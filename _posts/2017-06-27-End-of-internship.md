@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Pet project day - April 17 - Watson, event sourcing and cross platform dev ops
+title:  Toronto to Athens - Covve's first summer internship
 categories: Engineering
 cover: /images/blog/2017-06-27-End-of-internship/cover.png
 author: ap
@@ -21,7 +21,7 @@ The result was worth it though - the final presentation to our CEO was a resound
 And here's a short summary of her experiences in Jasmine's own words:
 "As a business intern for Covve, I got the opportunity to research and test a new feature for the address book app. The feature project had taught me many skills and helped me grow as a business professional.  The company provided me with great flexibility on what I could do with the feature project and were always open to new ideas. The management team was very motivating and highly interactive at every stage of my internship. Overall, the company culture is commendable; everyone on the team was very friendly and are passionate about their work. The past two months with Covve in Athens Greece have been incredible and I will be continuing my journey with the company through their app!"
 
-![Farewelldrinks](/images/blog/2017-06-27-End-of-internship/farewell.jpg)
+![Farewelldrinks](/images/blog/2017-06-27-End-of-internship/farewell1.jpg)
 
 ### Sharon: Sales strategy, content creation and lead generation
 
@@ -36,6 +36,6 @@ Working closely with Covve's head of Customer Success, Sharon was able in a shor
 And here's a short summary of her experiences in Sharon's own words:
 "Coming to Athens and joining Covve was probably one of the most adventurous, yet rewarding experience I’ve had so far. The second day after I arrived Athens, I was welcomed in Covve’s office with loads of handshakes (and frappe), didn’t know what was ahead and what to expect. However, 8 weeks have really passed in a blink of an eye, and this 8-week internship with Covve has really allowed me to learn the practical side of a growing business, as well as take ownership of my own project, and most importantly, to work with a group of amazing and passionate people. It is a safe place to ask questions, attempt new things, give my perspectives, and voice my thoughts. Thank you Covve for all the amazing opportunities and support, and it’s been a blast!"
 
-![finalsouvlaki](/images/blog/2017-06-27-End-of-internship/finalsouvlaki.jpg)
+![finalsouvlaki](/images/blog/2017-06-27-End-of-internship/finalsouvlaki1.jpg)
 
 [AIESEC]: http://aiesec.org
