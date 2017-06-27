@@ -3,11 +3,11 @@ layout: post
 title:  From Toronto to Athens - stories from Sharon and Jasmine's internship at Covve
 categories: Engineering
 cover: /images/blog/2017-06-27-End-of-internship/cover.png
-author: ap
+author: ap	
 ---
-Last Friday marked the end of the internship for Jasmine and Sharon. They joined us all the way from the University of Toronto, Canada through the [AIESEC][AIESEC] program. In two short months Jasmine and Sharon got immersed not only in Greek culture but also what it means to be part of a startup.
+Last Friday marked the end of the internship for Jasmine and Sharon. They joined us all the way from the University of Toronto, Canada through the [AIESEC][AIESEC] program. In two short months they got immersed not only in Greek culture but also what it means to be part of a startup.
 
-They were both given challening and meaningful roles in the team - from undertaking the feasibility study and prototype for one of Covve most ambitious and unique projects yet to leading our Universitis sales and partnerships strategy. And now that its all over I'm pleased to say they both delivered exceptionally, or, in our CEO's words "This is excellent! This is results!".
+They were both given challenging and meaningful roles in the team - from undertaking the feasibility study and prototype for one of Covve most ambitious and unique projects yet to leading our Universities sales and partnerships strategy. And now that its all over I'm pleased to say they both delivered exceptionally, or, in our CEO's words "This is excellent! This is results!".
 <!--more-->
 
 ### Jasmine: Feasibility study, analysis and prototype
@@ -16,7 +16,7 @@ They were both given challening and meaningful roles in the team - from undertak
 
 This was Jasmine's challenge. To take the high level brief for this new feature, explore far and wide for possible options and progressively narrow the options into a suggested solution and, finally, a proof of concept of the solution. The work involved a steep learning curve, some hardcore Excel analysis skills and a lot of creativity.
 
-The result was worth it though - the final presentation to our CEO was a resounding succes and the "News" feature has been added to the roadmap and is on its way to becoming a reality.
+The result was worth it though - the final presentation to our CEO was a resounding success and the "News" feature has been added to the roadmap and is on its way to becoming a reality.
 
 And here's a short summary of her experiences in Jasmine's own words:
 "As a business intern for Covve, I got the opportunity to research and test a new feature for the address book app. The feature project had taught me many skills and helped me grow as a business professional.  The company provided me with great flexibility on what I could do with the feature project and were always open to new ideas. The management team was very motivating and highly interactive at every stage of my internship. Overall, the company culture is commendable; everyone on the team was very friendly and are passionate about their work. The past two months with Covve in Athens Greece have been incredible and I will be continuing my journey with the company through their app!"
