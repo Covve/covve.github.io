@@ -10,7 +10,7 @@ author: ap
 
 The idea for some kind of key performance indicator display had been brewing for a while in the Covve offices. One day an old Raspberry had appeared on one of the desks... then, some weeks later, an 8x8 LED matrix display and one thing led to another.
 
-The project ended up involving almost the entire team at one point or other and ended up delivery both a stylish (if we can say so ourselves) but also useful gadget. It lights up one of the engineering rooms with real time updates on our key metrics and also interspercesintersperses motivational messages from time to time.
+The project ended up involving almost the entire team at one point or other and ended up delivering both a stylish (if we can say so ourselves) and useful gadget. It lights up one of the engineering rooms with real time updates on our key metrics and also intersperses motivational messages from time to time.
 
 ### Details of the build
 
