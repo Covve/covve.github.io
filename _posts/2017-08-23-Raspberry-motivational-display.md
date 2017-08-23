@@ -10,7 +10,7 @@ author: ap
 
 The idea for some kind of key performance indicator display had been brewing for a while in the Covve offices. One day an old Raspberry had appeared on one of the desks... then, some weeks later, an 8x8 LED matrix display and one thing led to another.
 
-The project ended up involving almost the entire team at one point or other and ended up delivery both a stylish (if we can say so ourselves) but also useful gadget. It lights up one of the engineering rooms with real time updates on our key metrics and also intersperces motivational messages from time to time.
+The project ended up involving almost the entire team at one point or other and ended up delivery both a stylish (if we can say so ourselves) but also useful gadget. It lights up one of the engineering rooms with real time updates on our key metrics and also interspercesintersperses motivational messages from time to time.
 
 ### Details of the build
 
@@ -24,11 +24,12 @@ A quick runthrough of the main components of the build:
 
 3) Connecting the two together needs A LOT of patience and attention to detail. You'll need to match the pinout from the LED matrix datasheet to the [pinout of the Raspberry's port][pinout of the Raspberry's port]
 
-4) We used the following for driving the display from the Raspberry: [https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=67520][https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=67520]]
+4) We used the following for driving the display from the Raspberry: [https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=67520][https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=67520]
 
 5) We made a small programme to fetch the KPI data from Covve's servers, display it on the display and also interplay the messages amongst the stats
 
-6) Designed and builded the plexiglass enclosure
+6) Designed and built the Plexiglas enclosure
+
 
 And that's it. [Check it out in action][Check it out in action]
 
