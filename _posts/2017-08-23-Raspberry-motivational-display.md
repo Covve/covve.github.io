@@ -22,9 +22,9 @@ A quick runthrough of the main components of the build:
 
 2) The 80x8 LED matrix display itself. You can find details [here][here]. We also used external power (a 12v transformer from an old mobile phone did the trick)
 
-3) Connecting the two together needs A LOT of patience and attention to detail. You'll need to match the pinout from the LED matrix datasheet to the [pinout of the Raspberry's port][pinout of the Raspberry's port]
+3) Connecting the two together needs A LOT of patience and attention to detail. You'll need to match the pinout from the LED matrix datasheet to the [pinout of the Raspberry's port][pinout of the Raspberry's port]. You can check out [Pete Gross' pin connection diagram][Pete Gross' pin connection diagram] for details.
 
-4) We used the following for driving the display from the Raspberry: [https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=67520][https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=67520]
+4) For driving the display from the Raspberry we adapted [Pete Gross'] driver. You can [download our adaptation][download our adaptation]
 
 5) We made a small programme to fetch the KPI data from Covve's servers, display it on the display and also interplay the messages amongst the stats
 
@@ -35,5 +35,6 @@ And that's it. [Check it out in action][Check it out in action]
 
 [here]: https://www.embeddedadventures.com/datasheets/LDP-8008.pdf
 [pinout of the Raspberry's port]: https://pinout.xyz/pinout/pin4_5v_power
-[https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=67520]: https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=67520]
+[download our adaptation]: https://github.com/masimplo/python-ldp8008
 [Check it out in action]: https://vimeo.com/230752600
+[Pete Gross' pin connection diagram]: http://www.embeddedadventures.com/Tutorials/tutorials_detail/184
