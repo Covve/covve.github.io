@@ -17,6 +17,7 @@ The project ended up involving almost the entire team at one point or other and 
 ![insides](/images/blog/2017-08-23-Raspberry-motivational-display/pi.JPG)
 
 A quick runthrough of the main components of the build:
+
 1) At the heart of the display is a Raspberry Pi 2. The first incarnation of the display used a Pi 1 but the display frequently experienced flickering so an upgrade was in order. We're running Raspbian on this
 
 2) The 8x8 LED matrix display itself. You can find details [here][here]. We also used external power (a 12v transformer from an old mobile phone did the trick)
