@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Automation, CI and the Covve pets
-categories: Team
+categories: Engineering
 cover: /images/blog/2017-09-05-Top-release-names/cover.png
 author: ap	
 ---
