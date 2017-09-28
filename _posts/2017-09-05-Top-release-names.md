@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Raspberry Pi KPI & motivation board
+title:  Automation, CI and the Covve pets
 categories: Team
 cover: /images/blog/2017-09-05-Top-release-names/cover.png
 author: ap	
