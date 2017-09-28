@@ -12,7 +12,7 @@ They were both given challenging and meaningful roles in the team and now that i
 
 ### Jasmine: Feasibility study, analysis and prototype
 
-"News" is one of our most challenging and most promising project for 2017. It has been brewing in our heads for a while now and has already proven some significant appetite from our business users. The only question left was... "is this achievable?".
+"News" is one of our most challenging and most promising projects. It has been brewing in our heads for a while now and has already proven some significant appetite from our business users. It is envisaged to be a key part of Referrals (more on this later!). The only question left was... "is this achievable?".
 
 This was Jasmine's challenge. To take the high level brief for this new feature, explore far and wide for possible options and progressively narrow the options into a suggested solution and, finally, a proof of concept of the solution. The work involved a steep learning curve, some hardcore Excel analysis skills and a lot of creativity.
 
