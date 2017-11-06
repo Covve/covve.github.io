@@ -10,7 +10,9 @@ Getting the entire team together is always great. Getting the team together for 
 
 <iframe src="https://player.vimeo.com/video/240901043" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/240901043">Covve hackathon 2017</a> from <a href="https://vimeo.com/covve">Covve</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-For a sample of just one of the projects delivered during the hackathon check out [howexposedareyou.com][howexposedareyou.com]
+
+### How exposed are you...
+For a sample of just one of the projects delivered during the hackathon check out [howexposedareyou.com][howexposedareyou.com]. This microsite brings a touch of Covve's improvements engine to bear on a topic that interests most of us these days... "How exposed is my private information on the internet".
 
 ![exposed](/images/blog/2017-11-06-Growth-hacking-hackathon/exposed.png)
 
