@@ -100,9 +100,9 @@ namespace azure.common
 
 This is all you need to upload a large block blob in Azure. You can boost this code in production with extra configuration or parallel asynchronous http calls for better performance but you get the idea. Hope that our experience has come in hand and saved you some time.
 
-[Blob service REST API]: https://docs.microsoft.com/en-us/rest/api/storageservices/fileservices/blob-service-rest-api
-[this Microsoft post]: https://docs.microsoft.com/en-us/rest/api/storageservices/fileservices/understanding-block-blobs--append-blobs--and-page-blobs
-[Put Blob]: https://docs.microsoft.com/en-us/rest/api/storageservices/fileservices/put-blob
-[Put Block]: https://docs.microsoft.com/en-us/rest/api/storageservices/fileservices/put-block
-[Put Block List]: https://docs.microsoft.com/en-us/rest/api/storageservices/fileservices/put-block-list
-[great post]: https://docs.microsoft.com/en-us/rest/api/storageservices/fileservices/Understanding-Block-Blobs--Append-Blobs--and-Page-Blobs?redirectedfrom=MSDN
+[Blob service REST API]: https://docs.microsoft.com/rest/api/storageservices/blob-service-rest-api
+[this Microsoft post]: https://docs.microsoft.com/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs
+[Put Blob]: https://docs.microsoft.com/rest/api/storageservices/put-blob
+[Put Block]: https://docs.microsoft.com/rest/api/storageservices/put-block
+[Put Block List]: https://docs.microsoft.com/rest/api/storageservices/put-block-list
+[great post]: https://docs.microsoft.com/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs

@@ -76,7 +76,7 @@ When it comes to our web app ([http://app.covve.com][ourapp]), cross browser com
 ### What, no Google?
 We do, of course, have [Google Analytics][google-analytics] in our arsenal. However its role is secondary to the tools already mentioned. Similarly there are a host of other tools we employ in specific scenarios (e.g. we’re currently using Crazyegg to understand scroll behaviour on our new public site) but nothing compares to the magnificent eight already set out above.
 
-[kissmetrics]: http://jekyllrb.com/docs/home
+[kissmetrics]: https://www.kissmetrics.com/
 [optimizely]: https://www.optimizely.com
 [appsflyer]: https://www.appsflyer.com
 [pingdom]: https://www.pingdom.com
@@ -85,4 +85,4 @@ We do, of course, have [Google Analytics][google-analytics] in our arsenal. Howe
 [browserstack]: https://www.browserstack.com
 [crashlytics]: http://try.crashlytics.com
 [mandrill]: http://www.mandrill.com
-[google-analytics]: https://www.google.com/analytics
+[google-analytics]: https://www.google.com/analytics/

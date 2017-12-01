@@ -38,4 +38,4 @@ And here's a short summary of her experiences in Sharon's own words:
 
 ![finalsouvlaki](/images/blog/2017-06-27-Toronto-to-Athens-Internship/finalsouvlaki1.jpg)
 
-[AIESEC]: http://aiesec.org
+[AIESEC]: https://aiesec.org

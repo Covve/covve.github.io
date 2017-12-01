@@ -73,7 +73,7 @@ Manolis' pet project looked at the third of these methods - automating the inter
 Being a two part pet project watch this space for the second part next month!
 
 [pwafeatures]: https://whatwebcando.today/
-[fullerdef]: https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/
+[fullerdef]: https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
 [martin]: https://martinfowler.com/
 [anemic]: https://martinfowler.com/bliki/AnemicDomainModel.html
 [ionic2]: http://ionic.io/2

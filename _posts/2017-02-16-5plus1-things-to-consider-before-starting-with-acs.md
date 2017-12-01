@@ -86,7 +86,7 @@ To sum up, Azure Container Service is a great PaaS solution which abstracts the 
 [VMSS]: https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview
 [Microsoft’s documentation]: https://docs.microsoft.com/en-us/azure/container-service/
 [is still in beta version]: https://mesosphere.github.io/marathon/docs/persistent-volumes.html
-[non-OS disks are temporary]: https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-about-disks-vhds
+[non-OS disks are temporary]: https://docs.microsoft.com/azure/virtual-machines/linux/about-disks-and-vhds
 [DC/OS]: https://dcos.io
-[Docker Swarm]: https://www.docker.com/products/docker-swarm
+[Docker Swarm]: https://www.docker.com/get-docker
 [Kubernetes]: https://kubernetes.io

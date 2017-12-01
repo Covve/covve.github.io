@@ -52,11 +52,11 @@ A pet project day later - we now understand a lot more about what [Watson] can d
 In case you're wondering what Manolis was up to this pet project day... he was attending the [Build Stuff][buildstuff] conference in Majorca. We are not jealous at all.
 
 [Watson]: https://www.ibm.com/watson/
-[http://docs.geteventstore.com/introduction/4.0.0/event-sourcing-basics/]: http://docs.geteventstore.com/introduction/4.0.0/event-sourcing-basics/
+[http://docs.geteventstore.com/introduction/4.0.0/event-sourcing-basics/]: https://eventstore.org/docs/introduction/4.0.0/event-sourcing-basics/
 [npm]: https://docs.npmjs.com/misc/scripts
 [buildstuff]: http://buildstuff.lt/summer/
 [grunt]: https://gruntjs.com/
-[gulp]: http://gulpjs.com/
+[gulp]: https://gulpjs.com/
 [webpack]: https://webpack.github.io/
 [browserify]: http://browserify.org/
 [yeoman]: http://yeoman.io/
