@@ -10,6 +10,7 @@
   })(window,document,'script','dataLayer','GTM-M4K424P');</script>
   <!-- End Google Tag Manager -->
   <title>{% if page.title == nil %}{{ site.title }}{% endif %}{{ page.title }}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta property="description" content="{% if page.categories == nil %}{{ site.description }}{% else if page.categories %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
