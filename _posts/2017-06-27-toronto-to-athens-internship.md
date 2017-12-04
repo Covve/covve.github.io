@@ -4,7 +4,7 @@ title:  From Toronto to Athens - stories from Sharon and Jasmine's internship at
 categories: Team
 cover: /images/blog/2017-06-27-Toronto-to-Athens-Internship/cover.png
 author: ap	
-redirect_from: "/2017-06-27-Toronto-to-Athens-Internship/"
+redirect_from: "/Toronto-to-Athens-Internship/"
 ---
 Last Friday marked the end of the internship for Jasmine and Sharon. They joined us all the way from the University of Toronto, Canada through the [AIESEC][AIESEC] program. In two short months they got immersed not only in Greek culture but also what it means to be part of a startup.
 
