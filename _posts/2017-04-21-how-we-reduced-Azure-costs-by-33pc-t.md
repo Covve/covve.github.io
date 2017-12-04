@@ -4,6 +4,7 @@ title:  How we reduced Azure costs by 33%
 categories: Engineering
 cover: /images/blog/2017-04-21-How-we-reduced-Azure-costs-by-33pc/pricing.png
 author: ap
+redirect_from: "/How-we-reduced-Azure-costs-by-33pc/"
 ---
 With cloud services it is quite easy for costs to incrementally increase without any alarm bells going off. Increases tend to be small and can often happen automatically (e.g. due to changes in volumes or changes in unit pricing). As such it is good practice to monitor and challenge cloud costs on a regular basis.
 

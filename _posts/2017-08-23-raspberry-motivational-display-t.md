@@ -4,6 +4,7 @@ title:  Raspberry Pi KPI & motivation board
 categories: Team
 cover: /images/blog/2017-08-23-Raspberry-motivational-display/cover.png
 author: ap	
+redirect_from: "/Raspberry-motivational-display/"
 ---
 "Always code as if the guy who ends up maintaining your code is a violent psychopath who knows where you live". It's motivational messages like this that keep the Covve engineering team operating at peak efficiency. They are delivered 24/7 by our homemade Raspberry powered LED matrix display and are accompanied by live values of our main KPIs (arguably the primary purpose of the device).
 <!--more-->

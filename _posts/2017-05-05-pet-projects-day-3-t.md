@@ -4,6 +4,7 @@ title:  Pet project day - April 17 - Watson, event sourcing and cross platform d
 categories: Engineering
 cover: /images/blog/2017-05-05-Pet-projects-day-3/petproject.png
 author: ap
+redirect_from: "/Pet-projects-day-3/"
 ---
 The last Friday of each month is Pet Project day over here at Covve. Giving ourselves the time to experiment with new and exciting technologies, try out new approaches or just scratch that technological itch.
 

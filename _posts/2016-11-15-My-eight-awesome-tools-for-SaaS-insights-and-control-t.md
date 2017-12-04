@@ -4,6 +4,7 @@ title:  My eight awesome tools for SaaS insights and control
 categories: Product
 cover: /images/blog/2016-11-15-My-eight-awesome-tools-for-SaaS-insights-and-control/2.jpg
 author: ap
+redirect_from: "/My-eight-awesome-tools-for-SaaS-insights-and-control/"
 ---
 Hi guys,
 

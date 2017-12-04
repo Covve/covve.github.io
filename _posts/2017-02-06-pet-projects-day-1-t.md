@@ -4,6 +4,7 @@ title:  Pet project day - Jan 17 - Monitoring, complexity and TensorFlow
 categories: Engineering
 cover: /images/blog/2017-02-06-Pet-projects-day-1/petproject.png
 author: ap
+redirect_from: "/Pet-projects-day-1/"
 ---
 The last Friday of each month is Pet Project day over here at Covve. Giving ourselves the time to experiment with new and exciting technologies, try out new approaches or just scratch that technological itch.
 

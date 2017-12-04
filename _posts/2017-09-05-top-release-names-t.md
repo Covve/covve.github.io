@@ -4,6 +4,7 @@ title:  Automation, CI and the Covve pets
 categories: Engineering
 cover: /images/blog/2017-09-05-Top-release-names/cover.png
 author: ap	
+redirect_from: "/Top-release-names/"
 ---
 Being obsessed with automation, quality and continuous integration here at Covve means that we typically release something new on one of our platforms or systems every week. This is great because it allows us to quickly respond to user feedback, rapidly innovate and quickly seize opportunities. More importantly though, once a week I get the pleasure of a humorous auto-generated release name! So, here's my top 5 release names from our cross platform app product.
 <!--more-->

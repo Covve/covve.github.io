@@ -4,6 +4,7 @@ title:  How we survived Product Hunt with four hours' notice
 categories: Engineering
 cover: /images/blog/2017-01-23-How-we-survived-Product-Hunt-with-four-hours-notice/1.png
 author: ap
+redirect_from: "/How-we-survived-Product-Hunt-with-four-hours-notice/"
 ---
 For those of you not aware of it, Product Hunt is a website that features the world’s coolest new software products every day. It has tons of followers and being featured on PH can mean massive exposure in a period of just 24 hours.
 

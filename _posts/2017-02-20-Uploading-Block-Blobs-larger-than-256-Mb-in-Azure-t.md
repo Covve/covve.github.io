@@ -4,6 +4,7 @@ title:  Uploading Block Blobs larger than 256 MB in Azure
 categories: Engineering
 cover: /images/blog/2017-02-20-Uploading-Block-Blobs-larger-than-256-Mb-in-Azure/blob.png
 author: mk
+redirect_from: "/Uploading-Block-Blobs-larger-than-256-Mb-in-Azure/"
 ---
 The Azure Blob service stores text and binary data as blobs in the cloud. Data can be uploaded using the [Blob service REST API][Blob service REST API]. In Covve we use this service in order to upload various binary files such as database backups etc. We use the block blobs type since they are optimum for streaming and we do not need append (append blocks) or arbitrary read/write operations (page blobs). Check [this Microsoft post][this Microsoft post] for a thorough description of these three kinds of blobs.
 <!--more-->

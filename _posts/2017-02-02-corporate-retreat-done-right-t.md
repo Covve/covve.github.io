@@ -4,6 +4,7 @@ title:  Corporate retreat done right - Covve's engineering team retreat highligh
 categories: Team
 cover: /images/blog/2017-02-02-Corporate-retreat-done-right/house.png
 author: ap
+redirect_from: "/Corporate-retreat-done-right/"
 ---
 Partly to celebrate a year’s work leading up to the release of Covve’s Android app and partly due to my long overdue promise of carnivorous heaven at my little hut in the Greek mountains, January featured Covve’s engineering team retreat.
 

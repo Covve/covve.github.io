@@ -4,6 +4,7 @@ title:  Surely a startup can’t justify having a PM
 categories: Team
 cover: /images/blog/2016-12-08-Surely-a-startup-cant-justify-having-a-PM/1.jpg
 author: ap
+redirect_from: "/Surely-a-startup-cant-justify-having-a-PM/"
 ---
 On the face of it, investing in a project manager for a small, young startup seems like an unforgivable luxury. Not only is this throwing money at a role that isn’t directly creating value but also seems to go against the philosophy of the startup; flat structures and super motivated crack teams surely don’t need managing, right?
 

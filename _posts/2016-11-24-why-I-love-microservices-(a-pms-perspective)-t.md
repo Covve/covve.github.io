@@ -4,6 +4,7 @@ title:  Why I love Microservices (a PM’s perspective)
 categories: Engineering
 cover: /images/blog/2016-11-24-Why-I-love-Microservices-(a-PMs-perspective)/microservices.png
 author: ap
+redirect_from: "/Why-I-love-Microservices-(a-PMs-perspective)/"
 ---
 [Microservices][microservices] has been a buzzword [for a while now][forawhile], and rightly so. For many products, projects and teams they provide solutions to some of the problems of large and complex software systems.
 
