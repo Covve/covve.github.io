@@ -4,6 +4,7 @@ title:  Pet project day - Feb 17 - Anti-patterns, PWA and push notifications
 categories: Engineering
 cover: /images/blog/2017-03-17-Pet-projects-day-2/petproject.png
 author: ap
+redirect_from: "/Pet-projects-day-2/"
 ---
 The last Friday of each month is Pet Project day over here at Covve. Giving ourselves the time to experiment with new and exciting technologies, try out new approaches or just scratch that technological itch.
 
