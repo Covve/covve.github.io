@@ -16,17 +16,20 @@ The 1.5 hours long presentation was packed with knowledge, facts and tips. A lot
 - China's largest 10 cities have a combined population of over 100m. This is larger than the entire UK and France combined.
 - What's even more interesting is that these 100m+ are, to a large extent, very internet savy, highly educated, and highly business-focused individuals (squarely in Covve's target market)
 - While Europe and the US are slowly and painfuly moving to cashless payments (let alone mobile payments), these top 10 cities are already completely cashless. Forget about credit cards, we're talking WePay and AliPay (the payment platforms of the two giants WeChat and Alibaba). And here's the photo that drove the point home for me:
+
 ![nocash](/images/blog/2018-02-10-chinese-market/nocash.jpg)
 - What's wrong with this advertisement? It seems to have a clear brand, its set in a relevant and relatable context... and yet... there's something missing in the bottom right...
+
 ![missingqr](/images/blog/2018-02-10-chinese-market/missingqr.png)
 I wouldn't guess this in 100 years... what's missing from this advert for it to be even remote useful in China is a QR code. QR codes are everywhere online and offline and are the ultimate call to action.
 - At first one may think that WeChat sounds and looks incredibly close to WhatsApp. And maybe this would have been correct 5 years ago. Today WeChat is possibly the largest conglomeration of digital consumer verticals into one. WeChat is Facebook, Whats App, Instagram, YouTube, Tinder, Amazon, Uber, Paypal and Candy Crash in one. Oh, its also the entire App Store and Google Play too (WeChat's Mini Programs is THE way for an apps publisher to publish their product)
 - What's the default, minimal way of attracting users to your digital business? Why paying them of course! We're used to incentive schemes in the West too; every digital service has, in some shape or form, a refer a friend scheme and discount offers. In China though this is taken to a whole new level - paying potential customers in *real cash* to download the app, signup, share a ride, book a restaurant and so on
 - The ultimate proof of this concept happens once a year during Chinense new year. During those few hours, the entire population of China watch the same show on TV. Clearly airtime during this show is priceless and companies will go to any length to get their brand exposed there. Last year, the two tech giants Tencent and Alibaba would pay people (yes, real money again) to open their respective apps during the show and shake their phones - the more you shake the more you gain.
+
 ![shake](/images/blog/2018-02-10-chinese-market/shake.jpg)
 - Finally, despite all that is different, there's so much that is fundamentally consisent across the globe. Yes, product is king; yes, content marketing is the way to spread your brand on a budget; yes you need to understand your audience well and provide the experience that they need
 
-![jiuren](/images/blog/2018-02-10-chinese-market/jiuren.png)
+![jiuren](/images/blog/2018-02-10-chinese-market/jiuren.jpg)
 
 ### A cheat sheet
 
@@ -39,4 +42,4 @@ So, to save you the headache, here's our Chinese to Western companies translator
 
 For the complete tour we're pleased to share Jiuren's [entire presentation][entire presentation].
 
-[entire presentation]: https://www.slideshare.net/secret/tIGKx8cCIZp6W1
+[entire presentation]: https://www.slideshare.net/AlexandrosProtogerel/crash-course-in-the-chinese-tech-market
