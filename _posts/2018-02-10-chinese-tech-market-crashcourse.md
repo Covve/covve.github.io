@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Crash course in the Chinese tech market
-categories: Team
+categories: Product
 cover: /images/blog/2018-02-10-chinese-tech-market-crashcourse/cover.jpg
 author: ap	
 ---
@@ -15,7 +15,7 @@ The 1.5 hours long presentation was packed with knowledge, facts and tips. A lot
 - Uber has all but lost the battle with China's homegrown ride sharing business Didi. Why? Well, amongst other things, Uber's insistence on using email as the main communication channel with their customers. In a society where everyone has a smartphone (but not a PC), email is often a retro flashback. If you want to communicate with your users effectively instant messaging is the way to go.
 - China's largest 10 cities have a combined population of over 100m. This is larger than the entire UK and France combined.
 - What's even more interesting is that these 100m+ are, to a large extent, very internet savvy, highly educated, and highly business-focused individuals (squarely in Covve's target market)
-- While Europe and the US are slowly and painfully moving to cashless payments (let alone mobile payments), these top 10 cities are already completely cashless. Forget about credit cards, we're talking WePay and AliPay (the payment platforms of the two giants WeChat and Alibaba). And here's the photo that drove the point home for me:
+- While Europe and the US are slowly and painfully moving to cashless payments (let alone mobile payments), these top 10 cities are already completely cashless. Forget about credit cards, we're talking WeChat Pay and Alipay (the payment platforms of the two giants Tencent and Alibaba). And here's the photo that drove the point home for me:
 
 ![nocash](/images/blog/2018-02-10-chinese-tech-market-crashcourse/nocash.jpg)
 - What's wrong with this advertisement? It seems to have a clear brand, it's set in a relevant and relatable context... and yet... there's something missing in the bottom right...
