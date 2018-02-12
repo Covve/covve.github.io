@@ -5,7 +5,7 @@ categories: Product
 cover: /images/blog/2018-02-10-chinese-tech-market-crashcourse/cover.jpg
 author: ap	
 ---
-Why did Uber lose the war to Didi? What's the one secret ingredient to marketing in China? Can a western company even begin approaching this tech-enabled market of hundreds of millions of potential users?
+Why did Uber lose the war to DiDi? What's the one secret ingredient to marketing in China? Can a western company even begin approaching this tech-enabled market of hundreds of millions of potential users?
 In her second week at Covve, our latest intern, Jiuren Zhou, gave the team a crash course in today's China, its massive opportunities and unique challenges. 
 <!--more-->
 
@@ -22,8 +22,8 @@ The 1.5 hours long presentation was packed with knowledge, facts and tips. A lot
 
 ![missingqr](/images/blog/2018-02-10-chinese-tech-market-crashcourse/missingqr.png)
 I wouldn't guess this in 100 years... what's missing from this advert for it to be even remote useful in China is a QR code. QR codes are everywhere online and offline and are the ultimate call to action.
-- At first one may think that WeChat sounds and looks incredibly close to WhatsApp. And maybe this would have been correct 5 years ago. Today WeChat is possibly the largest conglomeration of digital consumer verticals into one. WeChat is Facebook, Whats App, Instagram, YouTube, Tinder, Amazon, Uber, Paypal and Candy Crash in one. Oh, its also the entire App Store and Google Play too (WeChat's Mini Programs is THE way for an apps publisher to publish their product)
-- What's the default, minimal way of attracting users to your digital business? Why paying them of course! We're used to incentive schemes in the West too; every digital service has, in some shape or form, a refer a friend scheme and discount offers. In China though this is taken to a whole new level - paying potential customers in *real cash* to download the app, signup, share a ride, book a restaurant and so on
+- At first one may think that WeChat sounds and looks incredibly close to WhatsApp. And maybe this would have been correct 5 years ago. Today WeChat is possibly the largest conglomeration of digital consumer verticals into one. WeChat is Facebook, Whats App, Instagram, Google Maps, YouTube, Tinder, Amazon, Uber, Paypal and Candy Crash in one. Oh, its also the entire App Store and Google Play too (WeChat's Mini Programs is THE way for an apps publisher to publish their product)
+- What's the default, minimal way of attracting users to your digital business? Why, paying them of course! We're used to incentive schemes in the West too; every digital service has, in some shape or form, a refer a friend scheme and discount offers. In China though this is taken to a whole new level - paying potential customers in *real cash* to download the app, signup, share a ride, book a restaurant and so on
 - The ultimate proof of this concept happens once a year during Chinese new year. During those few hours, the entire population of China watch the same show on TV. Clearly airtime during this show is priceless and companies will go to any length to get their brand exposed there. Last year, the two tech giants Tencent and Alibaba would pay people (yes, real money again) to open their respective apps during the show and shake their phones - the more you shake the more you gain.
 
 ![shake](/images/blog/2018-02-10-chinese-tech-market-crashcourse/shake.jpg)
@@ -33,7 +33,7 @@ I wouldn't guess this in 100 years... what's missing from this advert for it to 
 
 ### A cheat sheet
 
-The first thing that can throw someone off when examining the market is the wealth of massive yet unknown to the West companies (and the absence of all those we've come to accept as part of our daily lives). Google is Baidu; Didi is Uber; youku is youtube... the list goes on.
+The first thing that can throw someone off when examining the market is the wealth of massive yet unknown to the West companies (and the absence of all those we've come to accept as part of our daily lives). Google is Baidu; DiDi is Uber; youku is youtube... the list goes on.
 
 So, to save you the headache, here's our Chinese to Western companies translator cheatsheet:
 ![cheatsheet](/images/blog/2018-02-10-chinese-tech-market-crashcourse/chinese-tech-companies-cheatsheet.png)
