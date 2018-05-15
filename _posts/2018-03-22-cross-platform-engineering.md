@@ -14,6 +14,10 @@ Join Valandis and Michael, two core members of the cross platform team as they p
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xGg_g_7EDqI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+Or, check out "Covve vs Covve", a blow by blow comparison of Covve's app implemented in iPhone native vs Cross platform:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/liVD8UAq6Nw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 [Ionic]: https://ionicframework.com/
 [Angular]: https://angular.io/
 [Cordova]: https://cordova.apache.org/
