@@ -12,7 +12,7 @@ Covve's cross-platform app has been one of our most significant projects of the 
 
 Join Valandis and Michael, two core members of the cross platform team as they present at London's Javascript meetup and walk us through our journey in cross platform engineering and our real-life lessons learnt in building a sophisticated and robust [Ionic], [Angular] and [Cordova] app.
 
-<iframe width="560" height="315" src="https://youtu.be/xGg_g_7EDqI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xGg_g_7EDqI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [Ionic]: https://ionicframework.com/
 [Angular]: https://angular.io/
