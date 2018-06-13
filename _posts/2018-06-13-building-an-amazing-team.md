@@ -10,6 +10,7 @@ When it comes to recruitment we always hire people with the aim of them being wi
 <!--more-->
 
 We have designed our recruitment process with two aims:
+
 1)	To assess whether you (the candidate) meet our requirements. This is not just the “technical” requirements of the specific role, but an assessment against 14 criteria which we feel are important for any of our team mates (these range from having a “can-do” attitude to showing ownership and pride in your work. More on these later)
 
 2)	To expose you to our company, our team and our culture as much as possible in order to enable you to assess whether we are a good fit for what you’re looking for. To achieve this we make sure you interact with multiple members of the team (your future teammates) in sessions which simulate what it’s like working at Covve (e.g. through pair programming)
