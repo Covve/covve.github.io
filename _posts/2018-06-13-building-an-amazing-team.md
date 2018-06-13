@@ -44,7 +44,7 @@ The more we learn about each other in the few hours we’ll be spending together
 
 5)	Don’t hire for the job… hire for the team
 
-You’ll never see us advertising for a “mid-level backend .Net engineer with 5 years’ experience in Azure and microservices and a dislike of small dogs”. We’re looking for people who are great at their job and great for our team and who will develop and grow with us. When hiring engineers we don’t care if you’re front-end or back-end, javascript or .Net. We feel that if you have solid foundations, the right attitude and the right support, you can work across the stack and in any language. Hiring for the long run means that we don't focus only on your current skills but on your potential and ever-learning attitude. Even from their first months you will undoubtedly need to work on technologies they haven't worked before, sometimes because those technologies simply didn't exist.
+You’ll never see us advertising for a “mid-level backend .Net engineer with 5 years’ experience in Azure and microservices and a dislike of small dogs”. We’re looking for people who are great at their job and great for our team and who will develop and grow with us. When hiring engineers we don’t care if you’re front-end or back-end, javascript or .Net. We feel that if you have solid foundations, the right attitude and the right support, you can work across the stack and in any language. Hiring for the long run means that we don't focus only on your current skills but on your potential and ever-learning attitude. Even from the first months you will undoubtedly need to work on technologies they haven't worked before, sometimes because those technologies simply didn't exist.
 
 ![iasonas](/images/blog/2018-06-13-building-an-amazing-team/iasonas.png)
 
