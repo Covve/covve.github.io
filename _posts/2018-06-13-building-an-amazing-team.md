@@ -16,6 +16,7 @@ We have designed our recruitment process with two aims:
 
 ### Our principles
 Throughout the process we adhere to some principles to make sure we get the most out of every minute with our candidates:
+
 1)	Help you perform at your best
 We want our candidates to be able to be at their best. We allow days, even weeks if you feel you want to prepare. We inform you what the interviews will be about and what to expect. We let you code using the programming language of your choice, and even code on your laptop to help you feel more at home.
 Hence the photo at the top of this post… we really want you to succeed. Its your race to win but we’ll be cheering you on along the way!
@@ -33,6 +34,7 @@ Recruitment, more so than other activities, runs the risk of becoming subjective
 
 4)	Maximise exposure
 The more we learn about each other in the few hours we’ll be spending together, the better. To maximise exposure we make sure you’ll meet a number of the people you’ll actually be working with on a daily basis but also have plenty of time with myself and my partner in which you can explore and understand our company, our vision and our values, and your place in these.
+
 5)	Don’t hire for the job… hire for the team
 
 You’ll never see us advertising for a “mid-level backend .Net engineer with 5 years’ experience in Azure and microservices and a dislike of small dogs”. We’re looking for people who are great at their job and great for our team and who will develop and grow with us. When hiring engineers we don’t care if you’re front-end or back-end, javascript or .Net. We feel that if you have solid foundations, the right attitude and the right support, you can work across the stack and in any language. Hiring for the long run means that we don't focus only on your current skills but on your potential and ever-learning attitude. Even from their first months you will undoubtedly need to work on technologies they haven't worked before, sometimes because those technologies simply didn't exist.
@@ -46,15 +48,24 @@ By being detailed and thorough we know exactly what we’re looking for and, whe
 
 ### A sample process
 The process itself varies depending on the role in question. As an example, here’s the process we run for one of the recent joiners to Covve’s engineering team:
-##Step 1 – initial screening
+
+Step 1 – initial screening
 Screening via CV, quick skype call, meeting or other means
-##Step 2 - Half-day with the team
+
+Step 2 - Half-day with the team
+
 Part 1: Working with two members of our engineering team, work through a real case study from Covve’s domain. We’ll present you with a problem we’ve actually faced in the past and will work with you towards solutions on the whiteboard. This exercise is not technical and focuses a lot more on problem solving, communication, creativity and teamwork
+
 Part 2: Working with another two members of our engineering team, solve a programming challenge. You’ll use your own laptop, your favourite programming language, tools, google, stackoverflow and anything else you need. During the exercise you’ll also be discussing some of the engineering fundamentals such as object oriented design and complexity.
+
 Part 3: The more “traditional” part of the day, you’ll meet with our CTO (me) to discuss, on the one hand, your experiences, aspirations and goals and, on the other hand, who we are, how we work, what we’re after and what our goals and dreams are.
-##Step 3 – Getting your hands dirty with an end to end exercise
+
+Step 3 – Getting your hands dirty with an end to end exercise
+
 This part of the process is a take-home, end to end programming exercise. It aims to expose your programming skills when facing a real world problem. It should take around 8-10 hours to complete the exercise. After you’ve sent it over you’ll discuss it with one of our engineering team members.
-##Step 4 – Offer
+
+Step 4 – Offer
+
 Assuming you’ve passed through the previous three stages successfully, you’ll then meet our CEO and, ultimately will be made an offer to join our team.
 
 ![stefanos](/images/blog/2018-06-13-building-an-amazing-team/stefanos.png)
