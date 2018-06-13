@@ -19,21 +19,27 @@ We have designed our recruitment process with two aims:
 Throughout the process we adhere to some principles to make sure we get the most out of every minute with our candidates:
 
 1)	Help you perform at your best
+
 We want our candidates to be able to be at their best. We allow days, even weeks if you feel you want to prepare. We inform you what the interviews will be about and what to expect. We let you code using the programming language of your choice, and even code on your laptop to help you feel more at home.
 Hence the photo at the top of this post… we really want you to succeed. Its your race to win but we’ll be cheering you on along the way!
 
 2)	Make it real
-a.	We’ll never ask you to calculate how many oranges are consumed worldwide each year (I’ve personally been asked variations of this question a dozen times in past interviews in London). Instead we’ll expose you to actual problems that we face day to day and which your job will be to help us resolve. And these are not about orange consumption but may very well be about something as low-level as bitwise operations and hash table collisions and as high-level as designing the next killer feature of Covve, since, well, this is the everyday life of our engineering team
-b.	In real life you also won’t be working alone, and so, in our interviews you’ll be working with our team members to jointly solve problems
-c.	In real life you’ll have your computer, your favourite tools and yes, google. Likewise, we have exercises with all these available to you. On the other hand, we would expect you to have strong foundations and be fluent in your preferred programming language so that you don't need to google the fundamentals.
+
+- We’ll never ask you to calculate how many oranges are consumed worldwide each year (I’ve personally been asked variations of this question a dozen times in past interviews in London). Instead we’ll expose you to actual problems that we face day to day and which your job will be to help us resolve. And these are not about orange consumption but may very well be about something as low-level as bitwise operations and hash table collisions and as high-level as designing the next killer feature of Covve, since, well, this is the everyday life of our engineering team
+
+- In real life you also won’t be working alone, and so, in our interviews you’ll be working with our team members to jointly solve problems
+
+- In real life you’ll have your computer, your favourite tools and yes, google. Likewise, we have exercises with all these available to you. On the other hand, we would expect you to have strong foundations and be fluent in your preferred programming language so that you don't need to google the fundamentals.
 
 3)	Be prepared and be thorough
+
 Recruitment, more so than other activities, runs the risk of becoming subjective, and hence ineffective. As such:
 -	We always know how we assess each criterion, what we expect and how we help you bring out your best for each. This enables us to confidently and objectively assess
 -	We put as much effort in preparing for the interviews as actually carrying them out
 -	Each interview is always attended by two team-members
 
 4)	Maximise exposure
+
 The more we learn about each other in the few hours we’ll be spending together, the better. To maximise exposure we make sure you’ll meet a number of the people you’ll actually be working with on a daily basis but also have plenty of time with myself and my partner in which you can explore and understand our company, our vision and our values, and your place in these.
 
 5)	Don’t hire for the job… hire for the team
