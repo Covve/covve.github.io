@@ -42,12 +42,12 @@ Three specific points of debate relating to brocoli:
 ![voting](/images/blog/2018-12-13-scrum-survival-guide/voting.png)
 
 2) Sometimes its just not possible to estimate a story. This is usually because there are too many unknowns (e.g. using technologies we've never used, or integrating with 3rd parties we've never investigated). These are called spike stories. We deal with them in two ways:
-- Either create a smaller story solely for the investigation necessary to remove the unknowns. This may include research, a proof of concept and/or design work
+- Create a smaller story solely for the investigation necessary to remove the unknowns. This may include research, a proof of concept and/or design work
 - Alternatively we accept the story as a spike (i.e. no estimate) and make sure to revisit shortly after work starts on the story
 
 ![spike](/images/blog/2018-12-13-scrum-survival-guide/spike.png)
 
-3) In theory, a team is comprised of roughly equivalent people. This implies that anyone can deliver any story and that the team works as a unit with people being interchangeable. Well, practice couldn't be further away. Not only does a team include both senior and junior people but each person has different knowledge, different experience and has worked on specific aspects of Covve up to now. If, say, Nikos has written the app's Android contacts sync plugin, he'll be significantly better equiped than any other person to make changes to this plugin.
+3) In theory, a team is comprised of roughly equivalent people. This implies that anyone can deliver any story and that the team works as a unit with people being interchangeable. Well, practice couldn't be further away. Not only does a team include both senior and junior people but each person has different knowledge, different experience and has worked on specific aspects of Covve up to now. If, say, Nikos has written the app's Android contacts sync plugin, he'll be much better equiped than any other person to make changes to this plugin.
 
 Which leads us to whether stories should have specific people assigned to them. Given the above, for our team, we decided that yes, they should. At the planning stage each story gets an owner who is responsible for delivering it. This allows each person to understand what they'll be working on the next two weeks and plan accordingly.
 
@@ -63,34 +63,36 @@ Each sprint has two roles who rotate amongst the team:
 
 At 5pm every second Wednesday there's always a flurry of activity in the office and on Slack. At 5pm a new release branch is borne, including all the stories which were DoneDoneDone in this sprint. At this point a sequence of events kicks off:
 - The Lord of Release merges any final pull requests (as long as they're DoneDoneDone) and creates the release branch.
-- The Scrum Master will do a dry run in advance of tomorrow's demo. This is a great opportunity for identifying any integration issues which may have crept in between pull requests as well as identify any bugs against the stories requirements.
-- If small bugs are found they are added to our "Testing parking lot" while if a blocking issue is identified (e.g. app doesn't load!) then we open the very first story of the new sprint called "Testing Wave 0 bugs". The relevant people work on these blocking issues immediately, aiming to resolve in time for the next day's demo
+- The Scrum Master will do a dry run in advance of tomorrow's demo. This is a great opportunity for identifying any integration issues which may have crept in between pull requests as well as identify any bugs against the stories' requirements.
+- If small bugs are found they are added to our "Testing parking lot". If a blocking issue is identified (e.g. app doesn't load!) then we open the very first story of the new sprint called "Testing Wave 0 bugs". The relevant people work on these blocking issues immediately, aiming to resolve in time for the next day's demo
 - At midday on Thursday we demo the new release and start the new sprint (with grooming and planning)
 
 ### The sprint within the sprint
 ![sprintinsprint](/images/blog/2018-12-13-scrum-survival-guide/sprintinsprint.png)
 
-In theory, a sprint sounds like such a tidy and shiny thing. It starts with a black sheet and gets filled with just the right stories. Everyone then works with laser focus on just these stories. Sounds great.
-And then at around 1 minute into a nice fresh sprint the panic starts: bugs identified in testing the previous sprint's release, tweaks to designs and requirements, support for users, ad-hoc investigations, participation in workshop... the list goes on.
+A sprint sounds like such a tidy and shiny thing. It starts with a blank sheet and gets filled with just the right stories. Everyone then works with laser focus on just these stories. Sounds great.
+
+And then at around 1 minute into a nice fresh sprint the panic starts: bugs identified in testing the previous sprint's release, tweaks to designs and requirements, support for users, ad-hoc investigations, participation in workshops... the list goes on.
 To help structure things, we've found the following process works well:
 - At the end of a sprint the new release is created (lets call it v9.0)
 - While the team are starting the next sprint (which will, in two weeks, deliver v9.1), the people responsible for testing will start testing v9.0. We call this "Wave 1 testing"
 - We make sure that no bugs/tasks are added to the board until all of Wave1 testing has completed. This avoids the disruption of bugs appearing one at a time
 - When Wave1 is complete, then a "v9.0 Wave 1 testing" story gets added to the board. Wave1 testing tasks take priority over the stories planned into the sprint
-- Once the fixes are made, the Lord of Release will create a new version which will then undergo Wave 2 testing and, if need be, Wave fixes
-- Testing (which includes our QA lead, UX lead, Customer Success, our CEO and CTO) may also reveal the need to make changes to designs, requirements or implementation. These are not marked as bugs, but rather added as priority stories to the board. They are estimated and the same number of brocoli are removed from the board to make sure the total remains the same
+- Once the fixes are made, the Lord of Release will create a new version which will then undergo Wave 2 testing and, if need be, Wave 2 fixes
+- Testing (which includes our QA lead, UX lead, Customer Success, and CTO) may also reveal the need to make changes to designs, requirements or implementation. These are not marked as bugs, but rather added as priority stories to the board. They are estimated and the same number of brocoli are removed from the board to make sure the total remains the same
 
 ### A stress-free approach to releasing to production every two weeks
-There are three things that make it possible for us to release a new version of our app every two weeks with minimal stress and risk:
-- Automatic tests: Over 4000 unit tests run each and every time our code is built. Ontop of that, true automatic end to end tests run on every build of a release branch, simulating the behaviour of users, navigating and interacting with the app and taking screenshots along the way. If anything is different or looks suspicious, an alert is raised
+In order for the scrum process to pay off, it needs to be supported by specific tools and processes. There are three things that make it possible for us to release a new version of our app every two weeks with minimal stress and risk:
+- Automatic tests: Over 4000 unit tests run each and every time our code is built. On top of that, automatic end to end tests run on every build of a release branch, simulating the behaviour of users, navigating and interacting with the app and taking screenshots along the way. If anything is different or looks suspicious, an alert is raised
 
 ![tests](/images/blog/2018-12-13-scrum-survival-guide/tests.png)
 
-- Continuous Integration: For our team to be able to rapidly develop and release with confidence we have invested heavily in automating every aspect of the build process. This means that from merging a pull request into our repo all the way to release on the app stores the only human intervention is pressing the "Release" button on iTunes and Google Play
+- Continuous Integration: For our team to be able to rapidly develop, and release with confidence we have invested heavily in automating every aspect of the build process. This means that from merging a pull request into our repo, all the way to releasing on the app stores, the only human intervention is pressing the "Release" button on iTunes and Google Play
 
 ![CI](/images/blog/2018-12-13-scrum-survival-guide/CI.png)
 
 - Process: Having tried the usual "no bugs allowed from Monday" memo, we've tuned our process to include the right steps that encourage and promote quality, including:
+
     - Ensuring new code has sufficient test coverage
 	- Every single commit must pass review from another team member
 	- The review process also includes a mini-demo. Demonstrating the new features on a physical device (as opposed to, say, the iPhone simulator). If this is not practical (e.g. because setting up the conditions for the demo would take too  long), then the developer shows a recording of the code in action
@@ -104,14 +106,14 @@ Our two main tools throughout this process is Github and our scrum board (we hap
 
 ![board](/images/blog/2018-12-13-scrum-survival-guide/board.png)
 
-- Github is used to manage the states of a story/pull request from the point of the PR being created and sent for review until the point when it is merged by the Lord of Release. This includes micro-statuses such as "Comments pending" and "Demo pending"
+- Github is used to manage the states of a story/pull request from the point of the PR being created and sent for review until the point when it is merged by the Lord of Release. This includes micro-statuses such as "Comments resolved" and "Demo pending"
 
 ![git](/images/blog/2018-12-13-scrum-survival-guide/git.png)
 
-###Bringing it all together
+### Bringing it all together
 We've invested heavily in making our engineering process as clear, repeatable and reliable as possible. This has included a lot of CI automation and a lot of tweaks to the process itself.
-And its paying off. Our team delivers consistently, efficiently and at high quality despite operating in the maelstorm which is the startup world where everything changes every day.
+And it's paying off. Our team delivers consistently, efficiently and at high quality despite operating in the maelstorm which is the startup world. With everthing changing every day, urgent issues and opportunities arising and innovation being at the heart of what we do, our scrum process is an oasis of calm, consistency and efficiency.
 
-And thats success for me.
+For me that's a big success.
 
 ![survivalguide](/images/blog/2018-12-13-scrum-survival-guide/survivalguide.png)
