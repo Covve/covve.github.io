@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Our triple distilled, well oiled, scrum machine (or, bridging scrum theory and the real world)
-categories: Team
+categories: Engineering
 cover: /images/blog/2018-12-13-scrum-survival-guide/survivalguide.png
 author: ap	
 ---
