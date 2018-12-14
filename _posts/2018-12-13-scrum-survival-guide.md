@@ -35,6 +35,7 @@ After running the process for a few months we established that our team delivers
 Three specific points of debate relating to brocoli:
 
 **Consensus**
+
 When estimating the brocoli for a story, all team members vote simultaneously. If all hands show the same number then that's the estimate we use. If on other other hand there are differences some kind of concensus needs to be reached. The balance here is between getting as good an estimate as possible (and shedding light on assumptions people make or relevant knowledge they have) and keeping the grooming session to a reasonable length. As such we've decided that:
 - If the difference is <3 brocoli (between the highest and lowerst estimate) then we just take the higher estimate
 - If the difference is >3 brocoli then people explain and debate and a further round of voting takes places
@@ -43,6 +44,7 @@ When estimating the brocoli for a story, all team members vote simultaneously. I
 ![voting](/images/blog/2018-12-13-scrum-survival-guide/voting.png)
 
 **Spike stories**
+
 Sometimes its just not possible to estimate a story. This is usually because there are too many unknowns (e.g. using technologies we've never used, or integrating with 3rd parties we've never investigated). These are called spike stories. We deal with them in two ways:
 - Create a smaller story solely for the investigation necessary to remove the unknowns. This may include research, a proof of concept and/or design work
 - Alternatively we accept the story as a spike (i.e. no estimate) and make sure to revisit shortly after work starts on the story
@@ -50,6 +52,7 @@ Sometimes its just not possible to estimate a story. This is usually because the
 ![spike](/images/blog/2018-12-13-scrum-survival-guide/spike.png)
 
 **Assigning stories to people**
+
 In theory, a team is comprised of roughly equivalent people. This implies that anyone can deliver any story and that the team works as a unit with people being interchangeable - when a developer finishes a story they just grab the next one on the team's list. Well, practice couldn't be further away. Not only does a team include both senior and junior people but each person has different knowledge, different experience and has worked on specific aspects of Covve up to now. If, say, Nikos has written the app's Android contacts sync plugin, he'll be much better equiped than any other person to make changes to this plugin.
 
 Which leads us to whether stories should have specific people assigned to them. Given the above, for our team, we decided that yes, they should. At the planning stage each story gets an owner who is responsible for delivering it. This allows each person to understand what they'll be working on the next two weeks and plan accordingly.
