@@ -5,7 +5,7 @@ categories: Team
 cover: /images/blog/2018-12-13-scrum-survival-guide/survivalguide.png
 author: ap	
 ---
-Scrum seems to be the default methodology in software engineering and especially when it comes to startups. However, getting from the simple, shiny theory to a detailed process that survives the messy, chaotic and unpredictable real world is another matter. So, after four years of fine tuning, adjusting and debating, I'm glad to present Covv'e scrum survival guide (in the form of a badly made infographic).
+Scrum seems to be the default methodology in software engineering, especially when it comes to startups. However, getting from the simple, shiny theory to a detailed process that survives the messy, chaotic and unpredictable real world is another matter. So, after four years of fine tuning, adjusting and debating, I'm glad to present Covve's scrum survival guide (in the form of a badly made infographic).
 <!--more-->
 
 In this post I'll set out the issues we faced when implementing scrum at Covve, the options we considered and the decisions we made. Its not about describing what scrum is but rather how we tweaked and changed to make it work for our team. Whether or not it works for yours is another matter! The process described here uses our cross-platform app project as an example but the same process and principles apply to our other teams too.
