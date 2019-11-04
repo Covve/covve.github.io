@@ -59,4 +59,4 @@ Well, not quite. Kodika is great but isn’t for every type of project. Kodika i
 So, **TLDR**: if you’re starting an app dev project now, seriously consider Kodika either for its proof of concept or even for the full blown thing. It certainly worked for us!
 
 [Kodika]: https://kodika.io
-[Covve Scan]: https://scanner.cards
+[Covve Scan]: https://covve.com/cardscanner
