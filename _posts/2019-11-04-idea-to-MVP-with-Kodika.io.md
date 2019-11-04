@@ -5,7 +5,7 @@ categories: Engineering
 cover: /images/blog/2019-11-04-idea-to-MVP-with-Kodika.io/cover.jpg
 author: ap	
 ---
-Its pet projects day at Covve, a time when ideas are borne and innovation flourishes. This particular Friday an interesting debate was underway… Given the investment and exceptional results of building Covve’s business card scanning engine (hint: one of the world’s most accurate engines which is also language agnostic), wouldn’t it be great to make this available to people through a standalone app? 
+Its pet projects day at Covve, a time when ideas are born and innovation flourishes. This particular Friday an interesting debate was underway… Given the investment and exceptional results of building Covve’s business card scanning engine (hint: one of the world’s most accurate engines which is also language agnostic), wouldn’t it be great to make this available to people through a standalone app? 
 
 This is a debate we’ve often had at Covve HQ and the hypothesis is solid – there’s an entire audience out there who want a dedicated, simple and super accurate scanner. We’ve already developed the tech so why not make it?
 
