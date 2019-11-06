@@ -20,13 +20,13 @@ Kodika is a really new service which lets you build iPhone apps with simple drag
 ![whatsthepoint](/images/blog/2019-11-04-idea-to-MVP-with-Kodika.io/appstore.jpg)
 
 
-So, Kodika delivered on its promise. However what I didn’t expect was the quality of the code coming out of it. It was absolutely production-level: it is robust, it is limitless (if you can code it traditionally, you can Kodika it too) and is performant. So much so actually that what started as a proof of concept has now been live for the best part of 2019 and has amassed 234 ratings with an average of 4.9 stars – not too shoddy for a 4 day pet project!
+So, Kodika delivered on its promise. However what I didn’t expect was the quality of the code coming out of it. It was absolutely production-level: it is robust, it is limitless (if you can code it traditionally, you can Kodika it too) and is performant. So much so actually, that what started as a proof of concept has now been live for the best part of 2019 and has amassed 234 ratings with an average of 4.9 stars – not too shoddy for a 4 day pet project!
 
-![whatsthepoint](/images/blog/2019-11-04-idea-to-MVP-with-Kodika.io/ratings.jpg)
+![whatsthepoint](/images/blog/2019-11-04-idea-to-MVP-with-Kodika.io/ratings2.jpg)
 
 ### The process was quite simple
 - We imported our designs from Zeplin.io into Kodika with one click. UI – done :)
-- We built all the business logic we wanted using [whats the drag and drop blocks logic thingy language called?] without having to compromise on anything which was great
+- We built all the business logic we wanted using that [funky blocks drag and drop interface] without having to compromise on anything which was great
 - We built the necessary API calls for integrating with our backend (i.e. the scanning engine) but also 3rd party services (we use Kissmetrics for our analytics)
 - We then found our ideal plugin for helping users photograph the business card. We chose a great plugin provided by WeTransfer. For this we did need to get in touch with the Kodika team as it isn’t provided out of the box. The team was refreshingly responsive and got us up and running in no time. We were also told that going forwards plugins like this will be available on the Kodika marketplace
 - We then added some native components (e.g. adding the native share functionality was literally one line of code)
