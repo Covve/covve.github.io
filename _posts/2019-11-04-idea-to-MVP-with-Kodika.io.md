@@ -58,5 +58,7 @@ Well, not quite. Kodika is great but isn’t for every type of project. Kodika i
 
 So, **TLDR**: if you’re starting an app dev project now, seriously consider Kodika either for its proof of concept or even for the full blown thing. It certainly worked for us!
 
+(Update June 2020: After successfully running on iOS for a year, we decided that the time came for Covve Scan to be launched on Android too. As such we implemented it on our standard Ionic/Angular stack and launched v2 of the scanner as a cross platform iOS/Android app)
+
 [Kodika]: https://kodika.io
 [Covve Scan]: https://covve.com/cardscanner
